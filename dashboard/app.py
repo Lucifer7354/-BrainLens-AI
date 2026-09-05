@@ -1,4 +1,4 @@
-﻿"""
+"""
 BrainLens AI
 Brain MRI Classification & Explainable AI
 Research Prototype — Not for Clinical Diagnosis
@@ -562,82 +562,52 @@ def run_inference(input_array: np.ndarray):
 
 def generate_gradcam(input_array: np.ndarray, class_idx: int):
     """
-    CPU-safe, logit-based Grad-CAM.
-
-    Normal model inference remains on the GPU. Grad-CAM is executed on
-    CPU because TensorFlow 2.10 + cuDNN on the RTX 3050 can fail during
-    Conv2D backward operations used by GradientTape.
+    Builds a connected Grad-CAM computation through the nested DenseNet121
+    backbone. Uses pre-softmax logits for the target class rather than the
+    softmax probability, as recommended for Grad-CAM stability.
     """
     if backbone_layer is None:
         return None
 
-    try:
-        input_tensor = tf.convert_to_tensor(
-            np.expand_dims(input_array, axis=0),
-            dtype=tf.float32
-        )
+    input_tensor = tf.convert_to_tensor(np.expand_dims(input_array, axis=0))
 
-        # Run the complete Grad-CAM graph on CPU to avoid the cuDNN
-        # Conv2DBackpropFilter failure encountered on the GPU.
-        with tf.device("/CPU:0"):
-            conv_layer = backbone_layer.get_layer(GRAD_CAM_LAYER_NAME)
+    conv_layer = backbone_layer.get_layer(GRAD_CAM_LAYER_NAME)
+    feature_extractor = tf.keras.Model(
+        inputs=backbone_layer.input,
+        outputs=[conv_layer.output, backbone_layer.output],
+    )
 
-            feature_extractor = tf.keras.Model(
-                inputs=backbone_layer.input,
-                outputs=[conv_layer.output, backbone_layer.output],
-            )
+    outer_layers = [l for l in model.layers if l is not backbone_layer]
+    last_layer = outer_layers[-1]
+    intermediate_layers = outer_layers[:-1]
 
-            outer_layers = [layer for layer in model.layers if layer is not backbone_layer]
-            last_layer = outer_layers[-1]
-            intermediate_layers = outer_layers[:-1]
+    with tf.GradientTape() as tape:
+        conv_output, backbone_output = feature_extractor(input_tensor, training=False)
+        tape.watch(conv_output)
 
-            with tf.GradientTape() as tape:
-                conv_output, backbone_output = feature_extractor(
-                    input_tensor,
-                    training=False
-                )
+        x = backbone_output
+        for layer in intermediate_layers:
+            x = layer(x, training=False)
 
-                tape.watch(conv_output)
+        # Compute pre-activation logits of the final Dense(softmax) layer
+        # manually, so Grad-CAM is driven by logits rather than softmax
+        # probabilities (softmax gradients saturate near 0/1 confidence).
+        if isinstance(x, tf.Tensor) and x.shape.rank and x.shape.rank > 2:
+            x = tf.keras.layers.Flatten()(x)
+        logits = tf.matmul(x, last_layer.kernel) + last_layer.bias
+        target_logit = logits[:, class_idx]
 
-                x = backbone_output
-
-                for layer in intermediate_layers:
-                    x = layer(x, training=False)
-
-                # The final classifier is Dense(4, softmax).
-                # Reconstruct its pre-softmax logits so Grad-CAM is based
-                # on the target logit rather than the saturated probability.
-                if isinstance(x, tf.Tensor) and x.shape.rank and x.shape.rank > 2:
-                    x = tf.keras.layers.Flatten()(x)
-
-                logits = tf.matmul(x, last_layer.kernel) + last_layer.bias
-                target_logit = logits[:, class_idx]
-
-            grads = tape.gradient(target_logit, conv_output)
-
-            if grads is None:
-                return None
-
-            pooled_grads = tf.reduce_mean(
-                grads,
-                axis=(0, 1, 2)
-            )
-
-            conv_output = conv_output[0]
-
-            heatmap = conv_output @ pooled_grads[..., tf.newaxis]
-            heatmap = tf.squeeze(heatmap)
-
-            heatmap = tf.maximum(heatmap, 0)
-            max_value = tf.reduce_max(heatmap)
-
-            heatmap = heatmap / (max_value + 1e-8)
-
-            return heatmap.numpy()
-
-    except Exception as exc:
-        print(f"Grad-CAM generation failed: {exc}")
+    grads = tape.gradient(target_logit, conv_output)
+    if grads is None:
         return None
+
+    pooled_grads = tf.reduce_mean(grads, axis=(0, 1, 2))
+    conv_output = conv_output[0]
+    heatmap = conv_output @ pooled_grads[..., tf.newaxis]
+    heatmap = tf.squeeze(heatmap)
+    heatmap = tf.maximum(heatmap, 0) / (tf.reduce_max(heatmap) + 1e-8)
+    return heatmap.numpy()
+
 
 def colorize_heatmap(heatmap: np.ndarray, target_size: int = INPUT_SIZE):
     heatmap_resized = Image.fromarray(np.uint8(heatmap * 255)).resize(
