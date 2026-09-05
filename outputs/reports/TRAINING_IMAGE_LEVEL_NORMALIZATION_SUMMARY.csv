@@ -1,0 +1,10 @@
+metric,value
+training_images,5000.0
+total_pixels,250880000.0
+mean_image_intensity,0.1672825126066804
+median_image_intensity,0.1644783765077591
+std_of_image_mean_intensity,0.051497068908803546
+mean_image_pixel_std,0.17301877385377884
+std_of_image_pixel_std,0.034129037645913955
+global_min,0.0
+global_max,1.0

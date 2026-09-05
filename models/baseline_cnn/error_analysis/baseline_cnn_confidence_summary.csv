@@ -1,0 +1,3 @@
+group,sample_count,mean_confidence,median_confidence,minimum_confidence,maximum_confidence
+correct,945,0.969902,0.99871075,0.50302786,1.0
+incorrect,55,0.7333555,0.7360574,0.4779039,0.9974783

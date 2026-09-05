@@ -1,0 +1,10 @@
+parameter,value
+input_size,"(224, 224)"
+channels,3
+color_mode,RGB
+resize_method,aspect_ratio_preserving
+padding,symmetric
+padding_fill,black
+intensity_normalization,rescale_0_1
+original_dataset_modified,False
+random_seed,42

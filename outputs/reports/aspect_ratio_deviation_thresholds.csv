@@ -1,0 +1,6 @@
+criterion,count,percentage
+Aspect ratio within ±5% of square,5397,89.95
+Aspect ratio within ±10% of square,5468,91.13
+Aspect ratio within ±20% of square,5563,92.72
+Aspect ratio within ±30% of square,5583,93.05
+Aspect ratio >30% away from square,417,6.95

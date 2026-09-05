@@ -1,0 +1,6 @@
+item,path,exists
+Project root,D:\MSC Bioinformatics\INTERNSHIP\BrainTumor,True
+Processed dataset,D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\data\processed\classification_224_rgb,True
+Split file,D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\data\splits\classification_model_splits.csv,True
+Final DenseNet121 model,D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\models\final_densenet121\FINAL_DENSENET121_BRISC2025.keras,True
+Predictions file,D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\outputs\predictions\final_densenet121\FINAL_DENSENET121_OFFICIAL_TEST_PREDICTIONS.csv,True

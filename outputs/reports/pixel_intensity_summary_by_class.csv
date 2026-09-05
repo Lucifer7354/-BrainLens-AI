@@ -1,0 +1,5 @@
+class,images,mean_intensity,std_of_mean_intensity,median_intensity,mean_pixel_std,mean_nonzero_percentage
+glioma,200,32.433,8.428,13.215,38.561,78.132
+meningioma,200,45.133,15.658,28.41,48.197,85.489
+pituitary,200,48.2,7.533,44.59,41.094,91.703
+no_tumor,200,50.426,14.113,34.935,51.955,74.722

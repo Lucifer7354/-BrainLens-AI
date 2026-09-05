@@ -1,0 +1,52 @@
+{
+    "model": "EfficientNetV2-S",
+    "task": "brain_tumor_classification",
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "input_size": [
+        224,
+        224,
+        3
+    ],
+    "training_samples": 4000,
+    "validation_samples": 1000,
+    "official_test_samples": 1000,
+    "batch_size": 8,
+    "initial_epochs": 10,
+    "fine_tune_epochs_max": 20,
+    "initial_learning_rate": 0.001,
+    "fine_tune_learning_rate": 1e-05,
+    "fine_tune_layers": 30,
+    "class_weights": {
+        "glioma": 1.0893246187363834,
+        "meningioma": 0.940733772342427,
+        "no_tumor": 1.17096018735363,
+        "pituitary": 0.8583690987124464
+    },
+    "preprocessing": "EfficientNetV2-S native Keras preprocessing",
+    "best_epoch": 24,
+    "best_train_loss": 0.03195495903491974,
+    "best_train_accuracy": 0.9915000200271606,
+    "best_validation_loss": 0.13642476499080658,
+    "best_validation_accuracy": 0.9620000123977661,
+    "validation_accuracy": 0.962,
+    "validation_balanced_accuracy": 0.9617197229779599,
+    "validation_macro_precision": 0.9631849090576732,
+    "validation_macro_recall": 0.9617197229779599,
+    "validation_macro_f1": 0.9622619184329335,
+    "total_parameters": 20665444,
+    "trainable_parameters_finetuning": 3049348,
+    "official_test_used_for_training": false,
+    "official_test_used_for_selection": false,
+    "official_test_evaluated": false,
+    "saved_model_path": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\efficientnetv2s\\efficientnetv2s_savedmodel",
+    "saved_model_verified": true,
+    "phase1_training_minutes": 5.224561909834544,
+    "phase2_training_minutes": 11.010289374987284,
+    "total_training_minutes": 16.23485128482183,
+    "random_seed": 42
+}

@@ -1,0 +1,22 @@
+{
+    "method": "Grad-CAM",
+    "model": "DenseNet121",
+    "model_path": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\final_densenet121\\FINAL_DENSENET121_BRISC2025.keras",
+    "target_layer": "conv5_block16_2_conv",
+    "feature_representation": "final DenseNet121 backbone output",
+    "feature_shape": "7x7x1024",
+    "heatmap_shape": "224x224",
+    "class_names": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "prediction_reconstruction_max_difference": 0.0,
+    "training_performed": false,
+    "model_modified": false,
+    "official_test_evaluation_modified": false,
+    "tensorflow_version": "2.10.0",
+    "numpy_version": "1.23.5",
+    "random_seed": 42
+}

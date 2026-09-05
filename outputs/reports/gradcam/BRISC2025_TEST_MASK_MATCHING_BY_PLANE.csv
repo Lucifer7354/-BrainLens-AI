@@ -1,0 +1,4 @@
+mri_plane,total_images,unique_mask_matches,no_mask_match,multiple_matches
+axial,398,346,52,0
+coronal,305,257,48,0
+sagittal,297,257,40,0

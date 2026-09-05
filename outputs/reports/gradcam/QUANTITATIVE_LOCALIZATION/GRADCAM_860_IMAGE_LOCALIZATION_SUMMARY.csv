@@ -1,0 +1,10 @@
+metric,value
+Authoritative cases,860.0
+Successfully analyzed,860.0
+Processing errors,0.0
+Pointing Game Accuracy,0.08488372093023255
+Mean Energy Inside Tumor,0.04405792917853095
+Median Energy Inside Tumor,0.024838113175837277
+Mean IoU @ 0.30,0.045473424913539826
+Mean IoU @ 0.50,0.057403449680801674
+Mean IoU @ 0.70,0.06094628976295404

@@ -1,0 +1,17 @@
+{
+    "dataset": "BRISC2025",
+    "official_test_images": 1000,
+    "matched_masks": 860,
+    "readable_masks": 860,
+    "tumor_present_masks": 860,
+    "empty_masks": 0,
+    "read_errors": 0,
+    "bounding_box_method": "Minimum axis-aligned rectangle enclosing all non-zero segmentation-mask pixels",
+    "background_definition": "Mask pixels equal to zero",
+    "tumor_pixel_definition": "Mask pixels greater than zero",
+    "boxes_are_ground_truth": true,
+    "boxes_derived_from_gradcam": false,
+    "model_training_performed": false,
+    "official_test_modified": false,
+    "status": "PASS"
+}

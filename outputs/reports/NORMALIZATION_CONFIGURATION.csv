@@ -1,0 +1,14 @@
+parameter,value
+normalization_source,Processed training images
+normalization_dataset,BRISC2025 classification training split
+training_images_used,5000
+test_images_used,0
+mean_R,0.16727468219338631
+mean_G,0.16727468219338631
+mean_B,0.16727468219338631
+std_R,0.18372874143203852
+std_G,0.18372874143203852
+std_B,0.18372874143203852
+initial_scaling,pixel / 255.0
+test_set_used_for_statistics,No
+data_leakage_prevention,Normalization statistics calculated exclusively from training data

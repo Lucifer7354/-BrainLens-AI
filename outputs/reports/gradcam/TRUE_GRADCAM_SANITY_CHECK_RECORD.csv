@@ -1,0 +1,2 @@
+filename,true_class,predicted_class,prediction_confidence,gradcam_target_class,gradcam_layer,feature_map_shape,heatmap_height,heatmap_width,heatmap_min,heatmap_max,heatmap_mean,method,prediction_reconstruction_max_difference,training_performed,official_test_model_modified,status
+brisc2025_test_00001_gl_ax_t1.jpg,glioma,glioma,0.9990822076797485,glioma,conv5_block16_2_conv,"(1, 7, 7, 32)",224,224,0.0,0.9919657707214355,0.10981418937444687,Grad-CAM,0.0,False,False,PASS

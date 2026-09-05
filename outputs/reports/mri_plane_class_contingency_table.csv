@@ -1,0 +1,5 @@
+tumor_label,axial,coronal,sagittal
+glioma,479,511,411
+meningioma,560,512,563
+pituitary,550,600,607
+no_tumor,404,358,445

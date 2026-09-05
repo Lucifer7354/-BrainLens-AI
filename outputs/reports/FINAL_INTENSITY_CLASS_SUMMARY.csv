@@ -1,0 +1,5 @@
+tumor_label,sampled_images,mean_intensity,median_intensity,std_of_mean_intensity,mean_pixel_std,mean_nonzero_percentage
+glioma,200,33.086,32.513,8.305,38.838,79.34
+meningioma,200,47.393,42.401,18.5,48.146,87.74
+no_tumor,200,51.492,50.497,13.376,51.889,76.133
+pituitary,200,49.05,49.904,7.924,41.767,91.939

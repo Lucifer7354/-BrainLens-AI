@@ -1,0 +1,2 @@
+filename,processed_filename,processed_path,true_class,true_class_index,predicted_class,predicted_class_index,prediction_confidence,gradcam_target_class,gradcam_target_index,heatmap_height,heatmap_width,heatmap_min,heatmap_max,heatmap_mean,status
+brisc2025_test_00001_gl_ax_t1.jpg,brisc2025_test_00001_gl_ax_t1.png,D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\data\processed\classification_224_rgb\test\glioma\brisc2025_test_00001_gl_ax_t1.png,glioma,0,glioma,0,0.9990822076797485,glioma,0,224,224,0.0,1.0,0.06686703860759735,PASS

@@ -1,0 +1,5 @@
+tumor_label,axial,coronal,sagittal
+glioma,34.19,36.47,29.34
+meningioma,34.25,31.31,34.43
+pituitary,31.3,34.15,34.55
+no_tumor,33.47,29.66,36.87

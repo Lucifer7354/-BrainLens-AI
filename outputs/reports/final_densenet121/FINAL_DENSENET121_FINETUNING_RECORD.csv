@@ -1,0 +1,2 @@
+model,training_stage,development_samples,epochs_requested,epochs_completed,batch_size,learning_rate,layers_considered_for_unfreezing,trainable_backbone_layers,class_weights_used,batch_normalization_layers_frozen,augmentation_used,best_epoch,best_loss,best_accuracy,official_test_used,status
+DenseNet121,fine_tuning,5000,15,15,32,1e-05,40,29,True,True,False,14,0.03880001977086067,0.9864000082015991,False,PASS

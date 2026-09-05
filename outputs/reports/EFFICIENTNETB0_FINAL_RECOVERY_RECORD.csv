@@ -1,0 +1,2 @@
+model,training_samples,validation_samples,official_test_samples,official_test_used_for_training,official_test_used_for_selection,official_test_evaluated,validation_accuracy,validation_balanced_accuracy,validation_macro_f1,best_epoch,best_weights_exists,savedmodel_exists,savedmodel_inference_verified,keras_serialization_issue,status
+EfficientNet-B0,4000,1000,1000,False,False,False,0.965,0.9638498522558876,0.9648849551536026,,True,True,True,True,PASS

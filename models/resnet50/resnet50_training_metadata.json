@@ -1,0 +1,45 @@
+{
+    "model": "ResNet50",
+    "task": "brain_tumor_classification",
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "input_size": [
+        224,
+        224,
+        3
+    ],
+    "training_samples": 4000,
+    "validation_samples": 1000,
+    "official_test_samples": 1000,
+    "batch_size": 16,
+    "initial_epochs": 10,
+    "fine_tune_epochs_max": 20,
+    "initial_learning_rate": 0.001,
+    "fine_tune_learning_rate": 1e-05,
+    "class_weights": {
+        "glioma": 1.0893246187363834,
+        "meningioma": 0.940733772342427,
+        "no_tumor": 1.17096018735363,
+        "pituitary": 0.8583690987124464
+    },
+    "best_epoch": 10,
+    "best_validation_accuracy": 0.8880000114440918,
+    "best_validation_loss": 0.30070751905441284,
+    "validation_accuracy": 0.888,
+    "validation_balanced_accuracy": 0.887836546163679,
+    "validation_macro_precision": 0.8868832899600523,
+    "validation_macro_recall": 0.887836546163679,
+    "validation_macro_f1": 0.8870473218026744,
+    "total_parameters": 24121476,
+    "official_test_used_for_training": false,
+    "official_test_used_for_model_selection": false,
+    "official_test_evaluated": false,
+    "random_seed": 42,
+    "phase1_training_minutes": 3.0797926068305967,
+    "phase2_training_minutes": 5.451744182904561,
+    "total_training_minutes": 8.531536789735158
+}

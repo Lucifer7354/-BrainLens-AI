@@ -1,0 +1,23 @@
+{
+    "figure": "Final DenseNet121 Grad-CAM Explainability Figure",
+    "model": "Final DenseNet121",
+    "dataset": "BRISC2025 official test set",
+    "selection_type": "Representative balanced subset",
+    "images": 12,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "gradcam_method": "Standard Logit-Based Grad-CAM",
+    "target": "Predicted-class pre-softmax logit",
+    "target_layer": "conv5_block16_2_conv",
+    "feature_map": "7x7x32",
+    "training_performed": false,
+    "model_modified": false,
+    "test_set_modified": false,
+    "figure_resolution_dpi": 300,
+    "purpose": "Qualitative explainability assessment",
+    "status": "PASS"
+}

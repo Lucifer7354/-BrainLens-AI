@@ -1,0 +1,25 @@
+{
+    "dataset": "BRISC2025",
+    "official_test_images": 1000,
+    "authoritative_segmentation_matches": 860,
+    "analysis_images": 860,
+    "model": "FINAL_DENSENET121_BRISC2025.keras",
+    "gradcam_layer": "conv5_block16_2_conv",
+    "gradcam_target": "predicted_class_logit",
+    "input_size": [
+        224,
+        224,
+        3
+    ],
+    "iou_thresholds": [
+        0.3,
+        0.5,
+        0.7
+    ],
+    "execution_device": "CPU",
+    "training_performed": false,
+    "model_modified": false,
+    "official_test_modified": false,
+    "ground_truth_source": "BRISC2025 authoritative segmentation masks",
+    "mask_path_method": "segmentation_task/test/masks/<classification_filename_stem>.png"
+}

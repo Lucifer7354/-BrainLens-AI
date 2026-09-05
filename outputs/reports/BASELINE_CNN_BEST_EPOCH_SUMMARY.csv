@@ -1,0 +1,2 @@
+model,best_epoch,epochs_completed,training_loss,training_accuracy,validation_loss,validation_accuracy,official_test_used
+Baseline_CNN,30,30,0.02171671763062477,0.9957500100135803,0.10860198736190796,0.9620000123977661,False

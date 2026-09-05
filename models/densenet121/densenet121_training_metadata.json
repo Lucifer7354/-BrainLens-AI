@@ -1,0 +1,48 @@
+{
+    "model": "DenseNet121",
+    "task": "brain_tumor_classification",
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "input_size": [
+        224,
+        224,
+        3
+    ],
+    "processed_dataset": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\data\\processed\\classification_224_rgb",
+    "split_file": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\data\\splits\\classification_model_splits.csv",
+    "training_samples": 4000,
+    "validation_samples": 1000,
+    "official_test_samples": 1000,
+    "batch_size": 16,
+    "initial_epochs": 10,
+    "fine_tune_epochs_max": 20,
+    "initial_learning_rate": 0.001,
+    "fine_tune_learning_rate": 1e-05,
+    "class_weights": {
+        "glioma": 1.0893246187363834,
+        "meningioma": 0.940733772342427,
+        "no_tumor": 1.17096018735363,
+        "pituitary": 0.8583690987124464
+    },
+    "preprocessing": "DenseNet121 ImageNet preprocess_input",
+    "best_epoch": 18,
+    "best_validation_accuracy": 0.9649999737739563,
+    "best_validation_loss": 0.08757450431585312,
+    "validation_accuracy": 0.965,
+    "validation_balanced_accuracy": 0.964979315099977,
+    "validation_macro_precision": 0.9642454272123202,
+    "validation_macro_recall": 0.964979315099977,
+    "validation_macro_f1": 0.9645368309656568,
+    "total_parameters": 7305028,
+    "official_test_used_for_training": false,
+    "official_test_used_for_model_selection": false,
+    "official_test_evaluated": false,
+    "random_seed": 42,
+    "phase1_training_minutes": 4.140728394190471,
+    "phase2_training_minutes": 6.41190462509791,
+    "total_training_minutes": 10.55263301928838
+}

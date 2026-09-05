@@ -1,0 +1,7 @@
+class_index,class_name,auc
+0,glioma,0.997092102763294
+1,meningioma,0.9947024919477878
+2,no_tumor,1.0
+3,pituitary,0.999742857142857
+macro,macro_average,0.9978843629634847
+weighted,weighted_average,0.997563213780757

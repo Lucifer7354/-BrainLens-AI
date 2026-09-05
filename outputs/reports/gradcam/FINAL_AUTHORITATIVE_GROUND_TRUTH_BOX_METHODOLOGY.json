@@ -1,0 +1,23 @@
+{
+    "dataset": "BRISC2025",
+    "official_test_images": 1000,
+    "authoritative_segmentation_matches": 860,
+    "images_without_segmentation_masks": 140,
+    "classes_with_segmentation": [
+        "glioma",
+        "meningioma",
+        "pituitary"
+    ],
+    "no_tumor_segmentation_cases": 0,
+    "image_mask_relationship": "BRISC2025 manifest linked_image",
+    "bounding_box_source": "Ground-truth segmentation mask",
+    "bounding_box_definition": "Minimum axis-aligned rectangle enclosing all non-zero tumor-mask pixels",
+    "coordinate_space": "224x224 model-input space",
+    "resize_method": "Aspect-ratio preserving resize",
+    "mask_interpolation": "Nearest-neighbor",
+    "padding": "Symmetric padding",
+    "model_modified": false,
+    "test_set_modified": false,
+    "gradcam_used": false,
+    "status": "PASS"
+}

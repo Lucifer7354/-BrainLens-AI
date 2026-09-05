@@ -1,0 +1,17 @@
+true_class_index,true_class,predicted_class_index,predicted_class,count,row_proportion
+0,glioma,0,glioma,238,0.937007874015748
+0,glioma,1,meningioma,15,0.05905511811023622
+0,glioma,2,no_tumor,0,0.0
+0,glioma,3,pituitary,1,0.003937007874015748
+1,meningioma,0,glioma,4,0.013071895424836602
+1,meningioma,1,meningioma,296,0.9673202614379085
+1,meningioma,2,no_tumor,1,0.0032679738562091504
+1,meningioma,3,pituitary,5,0.016339869281045753
+2,no_tumor,0,glioma,0,0.0
+2,no_tumor,1,meningioma,0,0.0
+2,no_tumor,2,no_tumor,140,1.0
+2,no_tumor,3,pituitary,0,0.0
+3,pituitary,0,glioma,1,0.0033333333333333335
+3,pituitary,1,meningioma,1,0.0033333333333333335
+3,pituitary,2,no_tumor,0,0.0
+3,pituitary,3,pituitary,298,0.9933333333333333

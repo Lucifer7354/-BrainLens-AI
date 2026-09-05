@@ -1,0 +1,21 @@
+{
+    "project": "BRISC2025 Brain Tumor Classification",
+    "model": "DenseNet121",
+    "evaluation_dataset": "Official BRISC2025 Test Set",
+    "test_samples": 1000,
+    "correct_predictions": 972,
+    "incorrect_predictions": 28,
+    "accuracy": 0.972,
+    "balanced_accuracy": 0.9744153671967475,
+    "macro_precision": 0.9753281940859706,
+    "macro_recall": 0.9744153671967475,
+    "macro_f1": 0.9747178823721109,
+    "macro_auc": 0.9978843629634847,
+    "weighted_f1": 0.9719220886516915,
+    "audit_total_checks": 28,
+    "audit_pass_count": 28,
+    "audit_fail_count": 0,
+    "official_test_used_for_training": false,
+    "official_test_used_for_model_selection": false,
+    "final_evaluation_status": "PASS"
+}

@@ -1,0 +1,2 @@
+filename,processed_filename,true_class,predicted_class,prediction_confidence,target_class,mri_plane,method,gradient_target,feature_representation,feature_shape,heatmap_shape,heatmap_min,heatmap_max,heatmap_mean,prediction_reconstruction_difference,training_performed,model_modified,status
+brisc2025_test_00001_gl_ax_t1.jpg,brisc2025_test_00001_gl_ax_t1.png,glioma,glioma,0.9990822076797485,glioma,axial,Logit-Based Grad-CAM,Pre-softmax class logit,DenseNet121 final backbone output,7x7x1024,224x224,0.03964723274111748,0.9869478940963745,0.49043554067611694,0.0,False,False,PASS

@@ -1,0 +1,11 @@
+filename,tumor_label,split,plane_label,width,height,aspect_ratio
+brisc2025_train_02893_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_02879_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_03064_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_02985_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_02899_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_02878_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_02947_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_02990_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_03054_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775
+brisc2025_train_03027_no_co_t1.jpg,no_tumor,train,coronal,187,369,0.5067750677506775

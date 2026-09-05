@@ -1,0 +1,5 @@
+tumor_label,train,validation,official_test
+glioma,918,229,254
+meningioma,1063,266,306
+no_tumor,854,213,140
+pituitary,1165,292,300

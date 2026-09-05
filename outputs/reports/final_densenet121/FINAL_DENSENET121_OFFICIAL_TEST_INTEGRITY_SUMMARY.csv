@@ -1,0 +1,2 @@
+dataset,total_images,files_present,images_readable,224x224_RGB_PNG,manifest_sha256_values_present,missing_files,read_errors,property_errors,processed_image_integrity_status,sha256_comparison_status
+BRISC2025 Official Test,1000,1000,1000,1000,1000,0,0,0,PASS,NOT_APPLICABLE_TO_PROCESSED_PNG

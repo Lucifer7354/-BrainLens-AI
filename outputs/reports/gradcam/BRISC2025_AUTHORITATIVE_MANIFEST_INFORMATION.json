@@ -1,0 +1,17 @@
+{
+    "manifest_file": "D:\\MSC Bioinformatics\\INTERNSHIP\\brisc2025\\manifest.csv",
+    "manifest_shape": [
+        15586,
+        17
+    ],
+    "official_test_images": 1000,
+    "official_test_manifest_records": 1860,
+    "total_manifest_mask_records": 4793,
+    "authoritative_linked_image_matches": 860,
+    "direct_filename_matches": 0,
+    "no_mask_matches": 140,
+    "multiple_matches": 0,
+    "previous_filename_based_matches": 860,
+    "matching_method": "BRISC2025 manifest linked_image relationship",
+    "status": "PASS"
+}

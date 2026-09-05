@@ -1,0 +1,5 @@
+true_class,total_images,unique_mask_matches,no_mask_match,multiple_matches
+glioma,254,254,0,0
+meningioma,306,306,0,0
+no_tumor,140,0,140,0
+pituitary,300,300,0,0

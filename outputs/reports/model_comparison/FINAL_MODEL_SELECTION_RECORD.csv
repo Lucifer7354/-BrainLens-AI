@@ -1,0 +1,2 @@
+selection_stage,selected_model,selection_primary_metric,selected_model_macro_f1,selected_model_balanced_accuracy,selected_model_accuracy,official_test_used_for_selection,official_test_evaluated,development_training_samples,validation_samples,official_test_samples,status
+validation_only,EfficientNet-B0,validation_macro_f1,0.9648849551536026,0.9638498522558876,0.965,False,False,4000,1000,1000,PASS

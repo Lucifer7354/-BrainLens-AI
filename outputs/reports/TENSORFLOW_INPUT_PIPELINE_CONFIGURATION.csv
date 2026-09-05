@@ -1,0 +1,13 @@
+parameter,value
+image_width,224
+image_height,224
+channels,3
+batch_size,32
+normalization,"pixel / 255.0 -> [0,1]"
+shuffle_training,Yes
+shuffle_test,No
+prefetch,tf.data.AUTOTUNE
+augmentation,Not applied in this baseline pipeline
+class_names,"glioma, meningioma, no_tumor, pituitary"
+class_mapping,"{'glioma': 0, 'meningioma': 1, 'no_tumor': 2, 'pituitary': 3}"
+random_seed,42

@@ -1,0 +1,21 @@
+{
+    "dataset": "BRISC2025",
+    "official_test_set": 1000,
+    "segmentation_matched_cases": 860,
+    "visualization_cases": 9,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "bounding_box_source": "Ground-truth segmentation masks",
+    "bounding_box_method": "Minimum axis-aligned rectangle enclosing all non-zero segmentation-mask pixels",
+    "box_edge_color": "red",
+    "gradcam_recomputed": false,
+    "gradcam_not_available_for_selected_cases": true,
+    "clinical_localization_claim": false,
+    "interpretation": "Bounding boxes represent tumor regions derived from ground-truth segmentation masks.",
+    "figure_dpi": 300,
+    "status": "PASS"
+}

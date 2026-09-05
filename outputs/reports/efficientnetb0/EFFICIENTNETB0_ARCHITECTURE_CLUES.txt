@@ -1,0 +1,284 @@
+====================================================================================================
+EFFICIENTNET-B0 WEIGHT ARCHITECTURE CLUES
+====================================================================================================
+H5 file: D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\models\efficientnetb0\efficientnetb0_best_weights.h5
+File size: 17,809,184 bytes
+
+TOP-LEVEL GROUPS
+----------------------------------------------------------------------------------------------------
+classifier_batchnorm
+classifier_dense
+classifier_dropout
+efficientnetb0
+global_average_pooling
+input
+predictions
+top_level_model_weights
+
+CLASSIFIER / OUTPUT LAYERS
+----------------------------------------------------------------------------------------------------
+classifier_batchnorm/classifier_batchnorm/beta:0 | shape=(1280,) | parameters=1,280
+classifier_batchnorm/classifier_batchnorm/gamma:0 | shape=(1280,) | parameters=1,280
+classifier_batchnorm/classifier_batchnorm/moving_mean:0 | shape=(1280,) | parameters=1,280
+classifier_batchnorm/classifier_batchnorm/moving_variance:0 | shape=(1280,) | parameters=1,280
+classifier_dense/classifier_dense/bias:0 | shape=(256,) | parameters=256
+classifier_dense/classifier_dense/kernel:0 | shape=(1280, 256) | parameters=327,680
+predictions/predictions/bias:0 | shape=(4,) | parameters=4
+predictions/predictions/kernel:0 | shape=(256, 4) | parameters=1,024
+
+WEIGHT-BEARING LAYERS
+----------------------------------------------------------------------------------------------------
+classifier_batchnorm/classifier_batchnorm | total_parameters=5,120
+classifier_dense/classifier_dense | total_parameters=327,936
+efficientnetb0/block1a_bn | total_parameters=128
+efficientnetb0/block1a_dwconv | total_parameters=288
+efficientnetb0/block1a_project_bn | total_parameters=64
+efficientnetb0/block1a_project_conv | total_parameters=512
+efficientnetb0/block1a_se_expand | total_parameters=288
+efficientnetb0/block1a_se_reduce | total_parameters=264
+efficientnetb0/block2a_bn | total_parameters=384
+efficientnetb0/block2a_dwconv | total_parameters=864
+efficientnetb0/block2a_expand_bn | total_parameters=384
+efficientnetb0/block2a_expand_conv | total_parameters=1,536
+efficientnetb0/block2a_project_bn | total_parameters=96
+efficientnetb0/block2a_project_conv | total_parameters=2,304
+efficientnetb0/block2a_se_expand | total_parameters=480
+efficientnetb0/block2a_se_reduce | total_parameters=388
+efficientnetb0/block2b_bn | total_parameters=576
+efficientnetb0/block2b_dwconv | total_parameters=1,296
+efficientnetb0/block2b_expand_bn | total_parameters=576
+efficientnetb0/block2b_expand_conv | total_parameters=3,456
+efficientnetb0/block2b_project_bn | total_parameters=96
+efficientnetb0/block2b_project_conv | total_parameters=3,456
+efficientnetb0/block2b_se_expand | total_parameters=1,008
+efficientnetb0/block2b_se_reduce | total_parameters=870
+efficientnetb0/block3a_bn | total_parameters=576
+efficientnetb0/block3a_dwconv | total_parameters=3,600
+efficientnetb0/block3a_expand_bn | total_parameters=576
+efficientnetb0/block3a_expand_conv | total_parameters=3,456
+efficientnetb0/block3a_project_bn | total_parameters=160
+efficientnetb0/block3a_project_conv | total_parameters=5,760
+efficientnetb0/block3a_se_expand | total_parameters=1,008
+efficientnetb0/block3a_se_reduce | total_parameters=870
+efficientnetb0/block3b_bn | total_parameters=960
+efficientnetb0/block3b_dwconv | total_parameters=6,000
+efficientnetb0/block3b_expand_bn | total_parameters=960
+efficientnetb0/block3b_expand_conv | total_parameters=9,600
+efficientnetb0/block3b_project_bn | total_parameters=160
+efficientnetb0/block3b_project_conv | total_parameters=9,600
+efficientnetb0/block3b_se_expand | total_parameters=2,640
+efficientnetb0/block3b_se_reduce | total_parameters=2,410
+efficientnetb0/block4a_bn | total_parameters=960
+efficientnetb0/block4a_dwconv | total_parameters=2,160
+efficientnetb0/block4a_expand_bn | total_parameters=960
+efficientnetb0/block4a_expand_conv | total_parameters=9,600
+efficientnetb0/block4a_project_bn | total_parameters=320
+efficientnetb0/block4a_project_conv | total_parameters=19,200
+efficientnetb0/block4a_se_expand | total_parameters=2,640
+efficientnetb0/block4a_se_reduce | total_parameters=2,410
+efficientnetb0/block4b_bn | total_parameters=1,920
+efficientnetb0/block4b_dwconv | total_parameters=4,320
+efficientnetb0/block4b_expand_bn | total_parameters=1,920
+efficientnetb0/block4b_expand_conv | total_parameters=38,400
+efficientnetb0/block4b_project_bn | total_parameters=320
+efficientnetb0/block4b_project_conv | total_parameters=38,400
+efficientnetb0/block4b_se_expand | total_parameters=10,080
+efficientnetb0/block4b_se_reduce | total_parameters=9,620
+efficientnetb0/block4c_bn | total_parameters=1,920
+efficientnetb0/block4c_dwconv | total_parameters=4,320
+efficientnetb0/block4c_expand_bn | total_parameters=1,920
+efficientnetb0/block4c_expand_conv | total_parameters=38,400
+efficientnetb0/block4c_project_bn | total_parameters=320
+efficientnetb0/block4c_project_conv | total_parameters=38,400
+efficientnetb0/block4c_se_expand | total_parameters=10,080
+efficientnetb0/block4c_se_reduce | total_parameters=9,620
+efficientnetb0/block5a_bn | total_parameters=1,920
+efficientnetb0/block5a_dwconv | total_parameters=12,000
+efficientnetb0/block5a_expand_bn | total_parameters=1,920
+efficientnetb0/block5a_expand_conv | total_parameters=38,400
+efficientnetb0/block5a_project_bn | total_parameters=448
+efficientnetb0/block5a_project_conv | total_parameters=53,760
+efficientnetb0/block5a_se_expand | total_parameters=10,080
+efficientnetb0/block5a_se_reduce | total_parameters=9,620
+efficientnetb0/block5b_bn | total_parameters=2,688
+efficientnetb0/block5b_dwconv | total_parameters=16,800
+efficientnetb0/block5b_expand_bn | total_parameters=2,688
+efficientnetb0/block5b_expand_conv | total_parameters=75,264
+efficientnetb0/block5b_project_bn | total_parameters=448
+efficientnetb0/block5b_project_conv | total_parameters=75,264
+efficientnetb0/block5b_se_expand | total_parameters=19,488
+efficientnetb0/block5b_se_reduce | total_parameters=18,844
+efficientnetb0/block5c_bn | total_parameters=2,688
+efficientnetb0/block5c_dwconv | total_parameters=16,800
+efficientnetb0/block5c_expand_bn | total_parameters=2,688
+efficientnetb0/block5c_expand_conv | total_parameters=75,264
+efficientnetb0/block5c_project_bn | total_parameters=448
+efficientnetb0/block5c_project_conv | total_parameters=75,264
+efficientnetb0/block5c_se_expand | total_parameters=19,488
+efficientnetb0/block5c_se_reduce | total_parameters=18,844
+efficientnetb0/block6a_bn | total_parameters=2,688
+efficientnetb0/block6a_dwconv | total_parameters=16,800
+efficientnetb0/block6a_expand_bn | total_parameters=2,688
+efficientnetb0/block6a_expand_conv | total_parameters=75,264
+efficientnetb0/block6a_project_bn | total_parameters=768
+efficientnetb0/block6a_project_conv | total_parameters=129,024
+efficientnetb0/block6a_se_expand | total_parameters=19,488
+efficientnetb0/block6a_se_reduce | total_parameters=18,844
+efficientnetb0/block6b_bn | total_parameters=4,608
+efficientnetb0/block6b_dwconv | total_parameters=28,800
+efficientnetb0/block6b_expand_bn | total_parameters=4,608
+efficientnetb0/block6b_expand_conv | total_parameters=221,184
+efficientnetb0/block6b_project_bn | total_parameters=768
+efficientnetb0/block6b_project_conv | total_parameters=221,184
+efficientnetb0/block6b_se_expand | total_parameters=56,448
+efficientnetb0/block6b_se_reduce | total_parameters=55,344
+efficientnetb0/block6c_bn | total_parameters=4,608
+efficientnetb0/block6c_dwconv | total_parameters=28,800
+efficientnetb0/block6c_expand_bn | total_parameters=4,608
+efficientnetb0/block6c_expand_conv | total_parameters=221,184
+efficientnetb0/block6c_project_bn | total_parameters=768
+efficientnetb0/block6c_project_conv | total_parameters=221,184
+efficientnetb0/block6c_se_expand | total_parameters=56,448
+efficientnetb0/block6c_se_reduce | total_parameters=55,344
+efficientnetb0/block6d_bn | total_parameters=4,608
+efficientnetb0/block6d_dwconv | total_parameters=28,800
+efficientnetb0/block6d_expand_bn | total_parameters=4,608
+efficientnetb0/block6d_expand_conv | total_parameters=221,184
+efficientnetb0/block6d_project_bn | total_parameters=768
+efficientnetb0/block6d_project_conv | total_parameters=221,184
+efficientnetb0/block6d_se_expand | total_parameters=56,448
+efficientnetb0/block6d_se_reduce | total_parameters=55,344
+efficientnetb0/block7a_bn | total_parameters=4,608
+efficientnetb0/block7a_dwconv | total_parameters=10,368
+efficientnetb0/block7a_expand_bn | total_parameters=4,608
+efficientnetb0/block7a_expand_conv | total_parameters=221,184
+efficientnetb0/block7a_project_bn | total_parameters=1,280
+efficientnetb0/block7a_project_conv | total_parameters=368,640
+efficientnetb0/block7a_se_expand | total_parameters=56,448
+efficientnetb0/block7a_se_reduce | total_parameters=55,344
+efficientnetb0/normalization_1 | total_parameters=7
+efficientnetb0/stem_bn | total_parameters=128
+efficientnetb0/stem_conv | total_parameters=864
+efficientnetb0/top_bn | total_parameters=5,120
+efficientnetb0/top_conv | total_parameters=409,600
+predictions/predictions | total_parameters=1,028
+
+TOTAL STORED WEIGHT VALUES: 4,383,655
+
+LARGE / IMPORTANT WEIGHT SHAPES
+----------------------------------------------------------------------------------------------------
+classifier_batchnorm/classifier_batchnorm/beta:0 | shape=(1280,) | parameters=1,280
+classifier_batchnorm/classifier_batchnorm/gamma:0 | shape=(1280,) | parameters=1,280
+classifier_batchnorm/classifier_batchnorm/moving_mean:0 | shape=(1280,) | parameters=1,280
+classifier_batchnorm/classifier_batchnorm/moving_variance:0 | shape=(1280,) | parameters=1,280
+classifier_dense/classifier_dense/kernel:0 | shape=(1280, 256) | parameters=327,680
+efficientnetb0/block2a_expand_conv/kernel:0 | shape=(1, 1, 16, 96) | parameters=1,536
+efficientnetb0/block2a_project_conv/kernel:0 | shape=(1, 1, 96, 24) | parameters=2,304
+efficientnetb0/block2b_dwconv/depthwise_kernel:0 | shape=(3, 3, 144, 1) | parameters=1,296
+efficientnetb0/block2b_expand_conv/kernel:0 | shape=(1, 1, 24, 144) | parameters=3,456
+efficientnetb0/block2b_project_conv/kernel:0 | shape=(1, 1, 144, 24) | parameters=3,456
+efficientnetb0/block3a_dwconv/depthwise_kernel:0 | shape=(5, 5, 144, 1) | parameters=3,600
+efficientnetb0/block3a_expand_conv/kernel:0 | shape=(1, 1, 24, 144) | parameters=3,456
+efficientnetb0/block3a_project_conv/kernel:0 | shape=(1, 1, 144, 40) | parameters=5,760
+efficientnetb0/block3b_dwconv/depthwise_kernel:0 | shape=(5, 5, 240, 1) | parameters=6,000
+efficientnetb0/block3b_expand_conv/kernel:0 | shape=(1, 1, 40, 240) | parameters=9,600
+efficientnetb0/block3b_project_conv/kernel:0 | shape=(1, 1, 240, 40) | parameters=9,600
+efficientnetb0/block3b_se_expand/kernel:0 | shape=(1, 1, 10, 240) | parameters=2,400
+efficientnetb0/block3b_se_reduce/kernel:0 | shape=(1, 1, 240, 10) | parameters=2,400
+efficientnetb0/block4a_dwconv/depthwise_kernel:0 | shape=(3, 3, 240, 1) | parameters=2,160
+efficientnetb0/block4a_expand_conv/kernel:0 | shape=(1, 1, 40, 240) | parameters=9,600
+efficientnetb0/block4a_project_conv/kernel:0 | shape=(1, 1, 240, 80) | parameters=19,200
+efficientnetb0/block4a_se_expand/kernel:0 | shape=(1, 1, 10, 240) | parameters=2,400
+efficientnetb0/block4a_se_reduce/kernel:0 | shape=(1, 1, 240, 10) | parameters=2,400
+efficientnetb0/block4b_dwconv/depthwise_kernel:0 | shape=(3, 3, 480, 1) | parameters=4,320
+efficientnetb0/block4b_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | parameters=38,400
+efficientnetb0/block4b_project_conv/kernel:0 | shape=(1, 1, 480, 80) | parameters=38,400
+efficientnetb0/block4b_se_expand/kernel:0 | shape=(1, 1, 20, 480) | parameters=9,600
+efficientnetb0/block4b_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | parameters=9,600
+efficientnetb0/block4c_dwconv/depthwise_kernel:0 | shape=(3, 3, 480, 1) | parameters=4,320
+efficientnetb0/block4c_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | parameters=38,400
+efficientnetb0/block4c_project_conv/kernel:0 | shape=(1, 1, 480, 80) | parameters=38,400
+efficientnetb0/block4c_se_expand/kernel:0 | shape=(1, 1, 20, 480) | parameters=9,600
+efficientnetb0/block4c_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | parameters=9,600
+efficientnetb0/block5a_dwconv/depthwise_kernel:0 | shape=(5, 5, 480, 1) | parameters=12,000
+efficientnetb0/block5a_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | parameters=38,400
+efficientnetb0/block5a_project_conv/kernel:0 | shape=(1, 1, 480, 112) | parameters=53,760
+efficientnetb0/block5a_se_expand/kernel:0 | shape=(1, 1, 20, 480) | parameters=9,600
+efficientnetb0/block5a_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | parameters=9,600
+efficientnetb0/block5b_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | parameters=16,800
+efficientnetb0/block5b_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | parameters=75,264
+efficientnetb0/block5b_project_conv/kernel:0 | shape=(1, 1, 672, 112) | parameters=75,264
+efficientnetb0/block5b_se_expand/kernel:0 | shape=(1, 1, 28, 672) | parameters=18,816
+efficientnetb0/block5b_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | parameters=18,816
+efficientnetb0/block5c_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | parameters=16,800
+efficientnetb0/block5c_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | parameters=75,264
+efficientnetb0/block5c_project_conv/kernel:0 | shape=(1, 1, 672, 112) | parameters=75,264
+efficientnetb0/block5c_se_expand/kernel:0 | shape=(1, 1, 28, 672) | parameters=18,816
+efficientnetb0/block5c_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | parameters=18,816
+efficientnetb0/block6a_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | parameters=16,800
+efficientnetb0/block6a_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | parameters=75,264
+efficientnetb0/block6a_project_conv/kernel:0 | shape=(1, 1, 672, 192) | parameters=129,024
+efficientnetb0/block6a_se_expand/kernel:0 | shape=(1, 1, 28, 672) | parameters=18,816
+efficientnetb0/block6a_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | parameters=18,816
+efficientnetb0/block6b_bn/beta:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_bn/gamma:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_bn/moving_mean:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_bn/moving_variance:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | parameters=28,800
+efficientnetb0/block6b_expand_bn/beta:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_expand_bn/gamma:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_expand_bn/moving_mean:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_expand_bn/moving_variance:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | parameters=221,184
+efficientnetb0/block6b_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | parameters=221,184
+efficientnetb0/block6b_se_expand/bias:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6b_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | parameters=55,296
+efficientnetb0/block6b_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | parameters=55,296
+efficientnetb0/block6c_bn/beta:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_bn/gamma:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_bn/moving_mean:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_bn/moving_variance:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | parameters=28,800
+efficientnetb0/block6c_expand_bn/beta:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_expand_bn/gamma:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_expand_bn/moving_mean:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_expand_bn/moving_variance:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | parameters=221,184
+efficientnetb0/block6c_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | parameters=221,184
+efficientnetb0/block6c_se_expand/bias:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6c_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | parameters=55,296
+efficientnetb0/block6c_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | parameters=55,296
+efficientnetb0/block6d_bn/beta:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_bn/gamma:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_bn/moving_mean:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_bn/moving_variance:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | parameters=28,800
+efficientnetb0/block6d_expand_bn/beta:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_expand_bn/gamma:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_expand_bn/moving_mean:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_expand_bn/moving_variance:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | parameters=221,184
+efficientnetb0/block6d_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | parameters=221,184
+efficientnetb0/block6d_se_expand/bias:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block6d_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | parameters=55,296
+efficientnetb0/block6d_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | parameters=55,296
+efficientnetb0/block7a_bn/beta:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_bn/gamma:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_bn/moving_mean:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_bn/moving_variance:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_dwconv/depthwise_kernel:0 | shape=(3, 3, 1152, 1) | parameters=10,368
+efficientnetb0/block7a_expand_bn/beta:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_expand_bn/gamma:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_expand_bn/moving_mean:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_expand_bn/moving_variance:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | parameters=221,184
+efficientnetb0/block7a_project_conv/kernel:0 | shape=(1, 1, 1152, 320) | parameters=368,640
+efficientnetb0/block7a_se_expand/bias:0 | shape=(1152,) | parameters=1,152
+efficientnetb0/block7a_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | parameters=55,296
+efficientnetb0/block7a_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | parameters=55,296
+efficientnetb0/top_bn/beta:0 | shape=(1280,) | parameters=1,280
+efficientnetb0/top_bn/gamma:0 | shape=(1280,) | parameters=1,280
+efficientnetb0/top_bn/moving_mean:0 | shape=(1280,) | parameters=1,280
+efficientnetb0/top_bn/moving_variance:0 | shape=(1280,) | parameters=1,280
+efficientnetb0/top_conv/kernel:0 | shape=(1, 1, 320, 1280) | parameters=409,600
+predictions/predictions/kernel:0 | shape=(256, 4) | parameters=1,024

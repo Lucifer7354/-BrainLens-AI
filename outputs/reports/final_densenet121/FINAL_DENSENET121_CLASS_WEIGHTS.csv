@@ -1,0 +1,5 @@
+class_index,class_name,sample_count,class_weight
+0,glioma,1147,1.0897994768962511
+1,meningioma,1329,0.9405568096313017
+2,no_tumor,1067,1.1715089034676665
+3,pituitary,1457,0.8579272477693891

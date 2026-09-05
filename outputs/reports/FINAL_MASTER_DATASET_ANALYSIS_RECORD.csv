@@ -1,0 +1,15 @@
+analysis,value,details
+Total classification images,6000,BRISC2025 classification dataset
+Image mode vs class,Strong association,Cramer's V = 0.580998
+MRI plane vs class,Negligible association,Cramer's V = 0.046823
+Mean intensity vs class,Large effect,Epsilon-squared = 0.323314
+512x512 images,4881,81.35% of classification images
+Square images,5341,89.02% of classification images
+Non-square images,659,10.98% of classification images
+Mean aspect ratio,0.9693,Width / height
+Maximum aspect ratio,1.6103,Width / height
+Minimum aspect ratio,0.5068,Width / height
+Highest grayscale class,glioma,87.58%
+Highest RGB class,no_tumor,100.00%
+Highest non-square class,no_tumor,36.70%
+Highest sampled intensity class,no_tumor,51.492

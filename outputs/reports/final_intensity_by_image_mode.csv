@@ -1,0 +1,3 @@
+image_mode,images,mean_intensity,median_intensity,standard_deviation,mean_pixel_std,mean_nonzero_percentage
+Grayscale,378,39.438,39.425,10.71,41.158,84.798
+RGB,422,50.466,48.35,15.69,48.744,82.883

@@ -1,0 +1,5 @@
+class_index,class_name,training_samples,training_percentage,class_weight
+0,glioma,1147,22.939999999999998,1.0897994768962511
+1,meningioma,1329,26.58,0.9405568096313017
+2,no_tumor,1067,21.34,1.1715089034676665
+3,pituitary,1457,29.14,0.8579272477693891

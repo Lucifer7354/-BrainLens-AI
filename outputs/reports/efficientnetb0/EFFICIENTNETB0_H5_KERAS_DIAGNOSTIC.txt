@@ -1,0 +1,306 @@
+EFFICIENTNET-B0 H5/KERAS VARIABLE DIAGNOSTIC
+==========================================================================================
+Keras variables: 320
+H5 datasets: 320
+Keras total values: 4,383,655
+H5 total values: 4,383,655
+Unique shape matches: 29
+Ambiguous shape matches: 291
+Unmatched variables: 0
+
+UNMATCHED VARIABLES
+------------------------------------------------------------------------------------------
+
+AMBIGUOUS VARIABLES
+------------------------------------------------------------------------------------------
+normalization/mean:0 | shape=(3,) | matches=2
+normalization/variance:0 | shape=(3,) | matches=2
+stem_bn/gamma:0 | shape=(32,) | matches=9
+stem_bn/beta:0 | shape=(32,) | matches=9
+stem_bn/moving_mean:0 | shape=(32,) | matches=9
+stem_bn/moving_variance:0 | shape=(32,) | matches=9
+block1a_bn/gamma:0 | shape=(32,) | matches=9
+block1a_bn/beta:0 | shape=(32,) | matches=9
+block1a_bn/moving_mean:0 | shape=(32,) | matches=9
+block1a_bn/moving_variance:0 | shape=(32,) | matches=9
+block1a_se_expand/bias:0 | shape=(32,) | matches=9
+block1a_project_bn/gamma:0 | shape=(16,) | matches=4
+block1a_project_bn/beta:0 | shape=(16,) | matches=4
+block1a_project_bn/moving_mean:0 | shape=(16,) | matches=4
+block1a_project_bn/moving_variance:0 | shape=(16,) | matches=4
+block2a_expand_bn/gamma:0 | shape=(96,) | matches=9
+block2a_expand_bn/beta:0 | shape=(96,) | matches=9
+block2a_expand_bn/moving_mean:0 | shape=(96,) | matches=9
+block2a_expand_bn/moving_variance:0 | shape=(96,) | matches=9
+block2a_bn/gamma:0 | shape=(96,) | matches=9
+block2a_bn/beta:0 | shape=(96,) | matches=9
+block2a_bn/moving_mean:0 | shape=(96,) | matches=9
+block2a_bn/moving_variance:0 | shape=(96,) | matches=9
+block2a_se_reduce/bias:0 | shape=(4,) | matches=2
+block2a_se_expand/bias:0 | shape=(96,) | matches=9
+block2a_project_bn/gamma:0 | shape=(24,) | matches=8
+block2a_project_bn/beta:0 | shape=(24,) | matches=8
+block2a_project_bn/moving_mean:0 | shape=(24,) | matches=8
+block2a_project_bn/moving_variance:0 | shape=(24,) | matches=8
+block2b_expand_conv/kernel:0 | shape=(1, 1, 24, 144) | matches=2
+block2b_expand_bn/gamma:0 | shape=(144,) | matches=18
+block2b_expand_bn/beta:0 | shape=(144,) | matches=18
+block2b_expand_bn/moving_mean:0 | shape=(144,) | matches=18
+block2b_expand_bn/moving_variance:0 | shape=(144,) | matches=18
+block2b_bn/gamma:0 | shape=(144,) | matches=18
+block2b_bn/beta:0 | shape=(144,) | matches=18
+block2b_bn/moving_mean:0 | shape=(144,) | matches=18
+block2b_bn/moving_variance:0 | shape=(144,) | matches=18
+block2b_se_reduce/kernel:0 | shape=(1, 1, 144, 6) | matches=2
+block2b_se_reduce/bias:0 | shape=(6,) | matches=2
+block2b_se_expand/kernel:0 | shape=(1, 1, 6, 144) | matches=2
+block2b_se_expand/bias:0 | shape=(144,) | matches=18
+block2b_project_bn/gamma:0 | shape=(24,) | matches=8
+block2b_project_bn/beta:0 | shape=(24,) | matches=8
+block2b_project_bn/moving_mean:0 | shape=(24,) | matches=8
+block2b_project_bn/moving_variance:0 | shape=(24,) | matches=8
+block3a_expand_conv/kernel:0 | shape=(1, 1, 24, 144) | matches=2
+block3a_expand_bn/gamma:0 | shape=(144,) | matches=18
+block3a_expand_bn/beta:0 | shape=(144,) | matches=18
+block3a_expand_bn/moving_mean:0 | shape=(144,) | matches=18
+block3a_expand_bn/moving_variance:0 | shape=(144,) | matches=18
+block3a_bn/gamma:0 | shape=(144,) | matches=18
+block3a_bn/beta:0 | shape=(144,) | matches=18
+block3a_bn/moving_mean:0 | shape=(144,) | matches=18
+block3a_bn/moving_variance:0 | shape=(144,) | matches=18
+block3a_se_reduce/kernel:0 | shape=(1, 1, 144, 6) | matches=2
+block3a_se_reduce/bias:0 | shape=(6,) | matches=2
+block3a_se_expand/kernel:0 | shape=(1, 1, 6, 144) | matches=2
+block3a_se_expand/bias:0 | shape=(144,) | matches=18
+block3a_project_bn/gamma:0 | shape=(40,) | matches=8
+block3a_project_bn/beta:0 | shape=(40,) | matches=8
+block3a_project_bn/moving_mean:0 | shape=(40,) | matches=8
+block3a_project_bn/moving_variance:0 | shape=(40,) | matches=8
+block3b_expand_conv/kernel:0 | shape=(1, 1, 40, 240) | matches=2
+block3b_expand_bn/gamma:0 | shape=(240,) | matches=18
+block3b_expand_bn/beta:0 | shape=(240,) | matches=18
+block3b_expand_bn/moving_mean:0 | shape=(240,) | matches=18
+block3b_expand_bn/moving_variance:0 | shape=(240,) | matches=18
+block3b_bn/gamma:0 | shape=(240,) | matches=18
+block3b_bn/beta:0 | shape=(240,) | matches=18
+block3b_bn/moving_mean:0 | shape=(240,) | matches=18
+block3b_bn/moving_variance:0 | shape=(240,) | matches=18
+block3b_se_reduce/kernel:0 | shape=(1, 1, 240, 10) | matches=2
+block3b_se_reduce/bias:0 | shape=(10,) | matches=2
+block3b_se_expand/kernel:0 | shape=(1, 1, 10, 240) | matches=2
+block3b_se_expand/bias:0 | shape=(240,) | matches=18
+block3b_project_bn/gamma:0 | shape=(40,) | matches=8
+block3b_project_bn/beta:0 | shape=(40,) | matches=8
+block3b_project_bn/moving_mean:0 | shape=(40,) | matches=8
+block3b_project_bn/moving_variance:0 | shape=(40,) | matches=8
+block4a_expand_conv/kernel:0 | shape=(1, 1, 40, 240) | matches=2
+block4a_expand_bn/gamma:0 | shape=(240,) | matches=18
+block4a_expand_bn/beta:0 | shape=(240,) | matches=18
+block4a_expand_bn/moving_mean:0 | shape=(240,) | matches=18
+block4a_expand_bn/moving_variance:0 | shape=(240,) | matches=18
+block4a_bn/gamma:0 | shape=(240,) | matches=18
+block4a_bn/beta:0 | shape=(240,) | matches=18
+block4a_bn/moving_mean:0 | shape=(240,) | matches=18
+block4a_bn/moving_variance:0 | shape=(240,) | matches=18
+block4a_se_reduce/kernel:0 | shape=(1, 1, 240, 10) | matches=2
+block4a_se_reduce/bias:0 | shape=(10,) | matches=2
+block4a_se_expand/kernel:0 | shape=(1, 1, 10, 240) | matches=2
+block4a_se_expand/bias:0 | shape=(240,) | matches=18
+block4a_project_bn/gamma:0 | shape=(80,) | matches=12
+block4a_project_bn/beta:0 | shape=(80,) | matches=12
+block4a_project_bn/moving_mean:0 | shape=(80,) | matches=12
+block4a_project_bn/moving_variance:0 | shape=(80,) | matches=12
+block4b_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | matches=3
+block4b_expand_bn/gamma:0 | shape=(480,) | matches=27
+block4b_expand_bn/beta:0 | shape=(480,) | matches=27
+block4b_expand_bn/moving_mean:0 | shape=(480,) | matches=27
+block4b_expand_bn/moving_variance:0 | shape=(480,) | matches=27
+block4b_dwconv/depthwise_kernel:0 | shape=(3, 3, 480, 1) | matches=2
+block4b_bn/gamma:0 | shape=(480,) | matches=27
+block4b_bn/beta:0 | shape=(480,) | matches=27
+block4b_bn/moving_mean:0 | shape=(480,) | matches=27
+block4b_bn/moving_variance:0 | shape=(480,) | matches=27
+block4b_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | matches=3
+block4b_se_reduce/bias:0 | shape=(20,) | matches=3
+block4b_se_expand/kernel:0 | shape=(1, 1, 20, 480) | matches=3
+block4b_se_expand/bias:0 | shape=(480,) | matches=27
+block4b_project_conv/kernel:0 | shape=(1, 1, 480, 80) | matches=2
+block4b_project_bn/gamma:0 | shape=(80,) | matches=12
+block4b_project_bn/beta:0 | shape=(80,) | matches=12
+block4b_project_bn/moving_mean:0 | shape=(80,) | matches=12
+block4b_project_bn/moving_variance:0 | shape=(80,) | matches=12
+block4c_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | matches=3
+block4c_expand_bn/gamma:0 | shape=(480,) | matches=27
+block4c_expand_bn/beta:0 | shape=(480,) | matches=27
+block4c_expand_bn/moving_mean:0 | shape=(480,) | matches=27
+block4c_expand_bn/moving_variance:0 | shape=(480,) | matches=27
+block4c_dwconv/depthwise_kernel:0 | shape=(3, 3, 480, 1) | matches=2
+block4c_bn/gamma:0 | shape=(480,) | matches=27
+block4c_bn/beta:0 | shape=(480,) | matches=27
+block4c_bn/moving_mean:0 | shape=(480,) | matches=27
+block4c_bn/moving_variance:0 | shape=(480,) | matches=27
+block4c_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | matches=3
+block4c_se_reduce/bias:0 | shape=(20,) | matches=3
+block4c_se_expand/kernel:0 | shape=(1, 1, 20, 480) | matches=3
+block4c_se_expand/bias:0 | shape=(480,) | matches=27
+block4c_project_conv/kernel:0 | shape=(1, 1, 480, 80) | matches=2
+block4c_project_bn/gamma:0 | shape=(80,) | matches=12
+block4c_project_bn/beta:0 | shape=(80,) | matches=12
+block4c_project_bn/moving_mean:0 | shape=(80,) | matches=12
+block4c_project_bn/moving_variance:0 | shape=(80,) | matches=12
+block5a_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | matches=3
+block5a_expand_bn/gamma:0 | shape=(480,) | matches=27
+block5a_expand_bn/beta:0 | shape=(480,) | matches=27
+block5a_expand_bn/moving_mean:0 | shape=(480,) | matches=27
+block5a_expand_bn/moving_variance:0 | shape=(480,) | matches=27
+block5a_bn/gamma:0 | shape=(480,) | matches=27
+block5a_bn/beta:0 | shape=(480,) | matches=27
+block5a_bn/moving_mean:0 | shape=(480,) | matches=27
+block5a_bn/moving_variance:0 | shape=(480,) | matches=27
+block5a_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | matches=3
+block5a_se_reduce/bias:0 | shape=(20,) | matches=3
+block5a_se_expand/kernel:0 | shape=(1, 1, 20, 480) | matches=3
+block5a_se_expand/bias:0 | shape=(480,) | matches=27
+block5a_project_bn/gamma:0 | shape=(112,) | matches=12
+block5a_project_bn/beta:0 | shape=(112,) | matches=12
+block5a_project_bn/moving_mean:0 | shape=(112,) | matches=12
+block5a_project_bn/moving_variance:0 | shape=(112,) | matches=12
+block5b_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | matches=3
+block5b_expand_bn/gamma:0 | shape=(672,) | matches=27
+block5b_expand_bn/beta:0 | shape=(672,) | matches=27
+block5b_expand_bn/moving_mean:0 | shape=(672,) | matches=27
+block5b_expand_bn/moving_variance:0 | shape=(672,) | matches=27
+block5b_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | matches=3
+block5b_bn/gamma:0 | shape=(672,) | matches=27
+block5b_bn/beta:0 | shape=(672,) | matches=27
+block5b_bn/moving_mean:0 | shape=(672,) | matches=27
+block5b_bn/moving_variance:0 | shape=(672,) | matches=27
+block5b_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | matches=3
+block5b_se_reduce/bias:0 | shape=(28,) | matches=3
+block5b_se_expand/kernel:0 | shape=(1, 1, 28, 672) | matches=3
+block5b_se_expand/bias:0 | shape=(672,) | matches=27
+block5b_project_conv/kernel:0 | shape=(1, 1, 672, 112) | matches=2
+block5b_project_bn/gamma:0 | shape=(112,) | matches=12
+block5b_project_bn/beta:0 | shape=(112,) | matches=12
+block5b_project_bn/moving_mean:0 | shape=(112,) | matches=12
+block5b_project_bn/moving_variance:0 | shape=(112,) | matches=12
+block5c_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | matches=3
+block5c_expand_bn/gamma:0 | shape=(672,) | matches=27
+block5c_expand_bn/beta:0 | shape=(672,) | matches=27
+block5c_expand_bn/moving_mean:0 | shape=(672,) | matches=27
+block5c_expand_bn/moving_variance:0 | shape=(672,) | matches=27
+block5c_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | matches=3
+block5c_bn/gamma:0 | shape=(672,) | matches=27
+block5c_bn/beta:0 | shape=(672,) | matches=27
+block5c_bn/moving_mean:0 | shape=(672,) | matches=27
+block5c_bn/moving_variance:0 | shape=(672,) | matches=27
+block5c_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | matches=3
+block5c_se_reduce/bias:0 | shape=(28,) | matches=3
+block5c_se_expand/kernel:0 | shape=(1, 1, 28, 672) | matches=3
+block5c_se_expand/bias:0 | shape=(672,) | matches=27
+block5c_project_conv/kernel:0 | shape=(1, 1, 672, 112) | matches=2
+block5c_project_bn/gamma:0 | shape=(112,) | matches=12
+block5c_project_bn/beta:0 | shape=(112,) | matches=12
+block5c_project_bn/moving_mean:0 | shape=(112,) | matches=12
+block5c_project_bn/moving_variance:0 | shape=(112,) | matches=12
+block6a_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | matches=3
+block6a_expand_bn/gamma:0 | shape=(672,) | matches=27
+block6a_expand_bn/beta:0 | shape=(672,) | matches=27
+block6a_expand_bn/moving_mean:0 | shape=(672,) | matches=27
+block6a_expand_bn/moving_variance:0 | shape=(672,) | matches=27
+block6a_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | matches=3
+block6a_bn/gamma:0 | shape=(672,) | matches=27
+block6a_bn/beta:0 | shape=(672,) | matches=27
+block6a_bn/moving_mean:0 | shape=(672,) | matches=27
+block6a_bn/moving_variance:0 | shape=(672,) | matches=27
+block6a_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | matches=3
+block6a_se_reduce/bias:0 | shape=(28,) | matches=3
+block6a_se_expand/kernel:0 | shape=(1, 1, 28, 672) | matches=3
+block6a_se_expand/bias:0 | shape=(672,) | matches=27
+block6a_project_bn/gamma:0 | shape=(192,) | matches=16
+block6a_project_bn/beta:0 | shape=(192,) | matches=16
+block6a_project_bn/moving_mean:0 | shape=(192,) | matches=16
+block6a_project_bn/moving_variance:0 | shape=(192,) | matches=16
+block6b_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | matches=4
+block6b_expand_bn/gamma:0 | shape=(1152,) | matches=36
+block6b_expand_bn/beta:0 | shape=(1152,) | matches=36
+block6b_expand_bn/moving_mean:0 | shape=(1152,) | matches=36
+block6b_expand_bn/moving_variance:0 | shape=(1152,) | matches=36
+block6b_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | matches=3
+block6b_bn/gamma:0 | shape=(1152,) | matches=36
+block6b_bn/beta:0 | shape=(1152,) | matches=36
+block6b_bn/moving_mean:0 | shape=(1152,) | matches=36
+block6b_bn/moving_variance:0 | shape=(1152,) | matches=36
+block6b_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | matches=4
+block6b_se_reduce/bias:0 | shape=(48,) | matches=4
+block6b_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | matches=4
+block6b_se_expand/bias:0 | shape=(1152,) | matches=36
+block6b_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | matches=3
+block6b_project_bn/gamma:0 | shape=(192,) | matches=16
+block6b_project_bn/beta:0 | shape=(192,) | matches=16
+block6b_project_bn/moving_mean:0 | shape=(192,) | matches=16
+block6b_project_bn/moving_variance:0 | shape=(192,) | matches=16
+block6c_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | matches=4
+block6c_expand_bn/gamma:0 | shape=(1152,) | matches=36
+block6c_expand_bn/beta:0 | shape=(1152,) | matches=36
+block6c_expand_bn/moving_mean:0 | shape=(1152,) | matches=36
+block6c_expand_bn/moving_variance:0 | shape=(1152,) | matches=36
+block6c_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | matches=3
+block6c_bn/gamma:0 | shape=(1152,) | matches=36
+block6c_bn/beta:0 | shape=(1152,) | matches=36
+block6c_bn/moving_mean:0 | shape=(1152,) | matches=36
+block6c_bn/moving_variance:0 | shape=(1152,) | matches=36
+block6c_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | matches=4
+block6c_se_reduce/bias:0 | shape=(48,) | matches=4
+block6c_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | matches=4
+block6c_se_expand/bias:0 | shape=(1152,) | matches=36
+block6c_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | matches=3
+block6c_project_bn/gamma:0 | shape=(192,) | matches=16
+block6c_project_bn/beta:0 | shape=(192,) | matches=16
+block6c_project_bn/moving_mean:0 | shape=(192,) | matches=16
+block6c_project_bn/moving_variance:0 | shape=(192,) | matches=16
+block6d_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | matches=4
+block6d_expand_bn/gamma:0 | shape=(1152,) | matches=36
+block6d_expand_bn/beta:0 | shape=(1152,) | matches=36
+block6d_expand_bn/moving_mean:0 | shape=(1152,) | matches=36
+block6d_expand_bn/moving_variance:0 | shape=(1152,) | matches=36
+block6d_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | matches=3
+block6d_bn/gamma:0 | shape=(1152,) | matches=36
+block6d_bn/beta:0 | shape=(1152,) | matches=36
+block6d_bn/moving_mean:0 | shape=(1152,) | matches=36
+block6d_bn/moving_variance:0 | shape=(1152,) | matches=36
+block6d_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | matches=4
+block6d_se_reduce/bias:0 | shape=(48,) | matches=4
+block6d_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | matches=4
+block6d_se_expand/bias:0 | shape=(1152,) | matches=36
+block6d_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | matches=3
+block6d_project_bn/gamma:0 | shape=(192,) | matches=16
+block6d_project_bn/beta:0 | shape=(192,) | matches=16
+block6d_project_bn/moving_mean:0 | shape=(192,) | matches=16
+block6d_project_bn/moving_variance:0 | shape=(192,) | matches=16
+block7a_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | matches=4
+block7a_expand_bn/gamma:0 | shape=(1152,) | matches=36
+block7a_expand_bn/beta:0 | shape=(1152,) | matches=36
+block7a_expand_bn/moving_mean:0 | shape=(1152,) | matches=36
+block7a_expand_bn/moving_variance:0 | shape=(1152,) | matches=36
+block7a_bn/gamma:0 | shape=(1152,) | matches=36
+block7a_bn/beta:0 | shape=(1152,) | matches=36
+block7a_bn/moving_mean:0 | shape=(1152,) | matches=36
+block7a_bn/moving_variance:0 | shape=(1152,) | matches=36
+block7a_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | matches=4
+block7a_se_reduce/bias:0 | shape=(48,) | matches=4
+block7a_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | matches=4
+block7a_se_expand/bias:0 | shape=(1152,) | matches=36
+block7a_project_bn/gamma:0 | shape=(320,) | matches=4
+block7a_project_bn/beta:0 | shape=(320,) | matches=4
+block7a_project_bn/moving_mean:0 | shape=(320,) | matches=4
+block7a_project_bn/moving_variance:0 | shape=(320,) | matches=4
+top_bn/gamma:0 | shape=(1280,) | matches=8
+top_bn/beta:0 | shape=(1280,) | matches=8
+top_bn/moving_mean:0 | shape=(1280,) | matches=8
+top_bn/moving_variance:0 | shape=(1280,) | matches=8
+classifier_batchnorm/gamma:0 | shape=(1280,) | matches=8
+classifier_batchnorm/beta:0 | shape=(1280,) | matches=8
+classifier_batchnorm/moving_mean:0 | shape=(1280,) | matches=8
+classifier_batchnorm/moving_variance:0 | shape=(1280,) | matches=8
+predictions/bias:0 | shape=(4,) | matches=2

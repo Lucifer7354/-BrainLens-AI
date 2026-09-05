@@ -1,0 +1,11 @@
+filename,tumor_label,split,plane_label,width,height,aspect_ratio
+brisc2025_test_00285_me_ax_t1.jpg,meningioma,test,axial,314,195,1.6102564102564103
+brisc2025_train_01999_me_sa_t1.jpg,meningioma,train,sagittal,420,264,1.5909090909090908
+brisc2025_test_00392_me_co_t1.jpg,meningioma,test,coronal,440,278,1.5827338129496402
+brisc2025_train_01609_me_co_t1.jpg,meningioma,train,coronal,497,320,1.553125
+brisc2025_train_01800_me_co_t1.jpg,meningioma,train,coronal,507,340,1.4911764705882353
+brisc2025_train_02000_me_sa_t1.jpg,meningioma,train,sagittal,630,423,1.4893617021276595
+brisc2025_test_00478_me_sa_t1.jpg,meningioma,test,sagittal,630,423,1.4893617021276595
+brisc2025_test_00489_me_sa_t1.jpg,meningioma,test,sagittal,645,439,1.469248291571754
+brisc2025_train_02012_me_sa_t1.jpg,meningioma,train,sagittal,645,439,1.469248291571754
+brisc2025_train_01608_me_co_t1.jpg,meningioma,train,coronal,507,362,1.4005524861878453

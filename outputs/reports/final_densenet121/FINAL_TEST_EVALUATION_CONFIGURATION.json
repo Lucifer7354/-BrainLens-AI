@@ -1,0 +1,38 @@
+{
+    "notebook": "05_final_test_evaluation.ipynb",
+    "purpose": "Locked official BRISC2025 test-set evaluation",
+    "tensorflow_version": "2.10.0",
+    "numpy_version": "1.23.5",
+    "seed": 42,
+    "image_size": [
+        224,
+        224
+    ],
+    "num_channels": 3,
+    "batch_size": 32,
+    "class_names": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "class_to_index": {
+        "glioma": 0,
+        "meningioma": 1,
+        "no_tumor": 2,
+        "pituitary": 3
+    },
+    "official_test_size": 1000,
+    "training_performed_in_this_notebook": false,
+    "model_selection_performed_in_this_notebook": false,
+    "official_test_used_for_training": false,
+    "official_test_used_for_model_selection": false,
+    "final_model": "DenseNet121",
+    "final_model_path": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\final_densenet121\\FINAL_DENSENET121_BRISC2025.keras",
+    "fixed_split_file": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\data\\splits\\classification_model_splits.csv",
+    "gpu_available": true,
+    "gpu_devices": [
+        "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+    ],
+    "configuration_status": "PASS"
+}

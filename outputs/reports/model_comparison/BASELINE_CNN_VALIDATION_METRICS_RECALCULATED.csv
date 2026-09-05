@@ -1,0 +1,2 @@
+model,accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,best_epoch,best_validation_loss,total_parameters,batch_size,official_test_used_for_training,official_test_used_for_selection,official_test_evaluated
+Baseline CNN,0.962,0.9626990117664203,0.9619607536456657,0.9626990117664203,0.9620434153184443,30,,423748,32,False,False,False

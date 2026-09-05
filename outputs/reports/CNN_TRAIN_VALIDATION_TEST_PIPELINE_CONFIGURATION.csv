@@ -1,0 +1,19 @@
+parameter,value
+random_seed,42
+image_width,224
+image_height,224
+channels,3
+batch_size,32
+training_samples,4000
+validation_samples,1000
+official_test_samples,1000
+training_batches,125
+validation_batches,32
+official_test_batches,32
+training_shuffle,True
+validation_shuffle,False
+official_test_shuffle,False
+pixel_range,"[0, 1]"
+image_dtype,float32
+label_dtype,int32
+augmentation,None

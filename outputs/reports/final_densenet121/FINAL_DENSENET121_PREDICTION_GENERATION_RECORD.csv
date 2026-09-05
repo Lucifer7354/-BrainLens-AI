@@ -1,0 +1,2 @@
+model,dataset,n_test_images,n_classes,prediction_shape,probabilities_finite,probabilities_nonnegative,probabilities_le_one,probabilities_sum_to_one,prediction_status
+DenseNet121,BRISC2025 Official Test,1000,4,"(1000, 4)",True,True,True,True,PASS

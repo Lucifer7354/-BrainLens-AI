@@ -1,0 +1,31 @@
+{
+    "model_name": "Baseline_CNN",
+    "seed": 42,
+    "epochs_requested": 30,
+    "epochs_completed": 30,
+    "best_epoch": 30,
+    "best_val_loss": 0.10860198736190796,
+    "best_val_accuracy": 0.9620000123977661,
+    "best_train_loss": 0.02171671763062477,
+    "best_train_accuracy": 0.9957500100135803,
+    "initial_learning_rate": 0.001,
+    "optimizer": "Adam",
+    "loss": "SparseCategoricalCrossentropy",
+    "batch_size": 32,
+    "training_samples": 4000,
+    "validation_samples": 1000,
+    "official_test_samples": 1000,
+    "official_test_used_for_training": false,
+    "class_weights": {
+        "0": 1.089799,
+        "1": 0.940557,
+        "2": 1.171509,
+        "3": 0.857927
+    },
+    "early_stopping_patience": 7,
+    "reduce_lr_factor": 0.5,
+    "reduce_lr_patience": 3,
+    "minimum_learning_rate": 1e-07,
+    "best_model_path": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\baseline_cnn\\baseline_cnn_best.keras",
+    "final_model_path": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\baseline_cnn\\baseline_cnn_final.keras"
+}

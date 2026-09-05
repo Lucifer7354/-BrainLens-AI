@@ -1,0 +1,2 @@
+model,model_path,input_shape,output_shape,total_parameters,conv2d_layer_count,gradcam_layer,gradcam_layer_output,architecture_verification,gradcam_layer_verification
+DenseNet121,D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\models\final_densenet121\FINAL_DENSENET121_BRISC2025.keras,"(None, 224, 224, 3)","(None, 4)",7305028,120,conv5_block16_2_conv,"(None, 7, 7, 32)",PASS,PASS

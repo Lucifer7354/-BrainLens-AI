@@ -1,0 +1,20 @@
+{
+    "model": "Baseline_CNN",
+    "test_samples": 1000,
+    "test_loss": 0.132219597697258,
+    "test_accuracy": 0.945,
+    "balanced_accuracy": 0.9506839586228192,
+    "macro_precision": 0.9444804655441575,
+    "macro_recall": 0.9506839586228192,
+    "macro_f1": 0.9471135925237543,
+    "weighted_precision": 0.9448657406584379,
+    "weighted_recall": 0.945,
+    "weighted_f1": 0.9445550084747172,
+    "official_test_used_for_training": false,
+    "official_test_used_for_model_selection": false,
+    "random_seed": 42,
+    "prediction_file": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\baseline_cnn\\evaluation\\baseline_cnn_official_test_predictions.csv",
+    "class_metrics_file": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\baseline_cnn\\evaluation\\baseline_cnn_official_test_class_metrics.csv",
+    "confusion_matrix_file": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\baseline_cnn\\evaluation\\baseline_cnn_confusion_matrix.csv",
+    "normalized_confusion_matrix_file": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\baseline_cnn\\evaluation\\baseline_cnn_normalized_confusion_matrix.csv"
+}

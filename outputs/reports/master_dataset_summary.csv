@@ -1,0 +1,32 @@
+Metric,Value
+Total classification images,6000.0
+Training images,5000.0
+Test images,1000.0
+Glioma images,1401.0
+Meningioma images,1635.0
+Pituitary images,1757.0
+No tumor images,1207.0
+Unique width × height combinations,183.0
+Square images,5341.0
+Non-square images,659.0
+Square image percentage,89.02
+Non-square image percentage,10.98
+Mean aspect ratio,0.969283
+Aspect ratio standard deviation,0.110219
+Minimum aspect ratio,0.506775
+Maximum aspect ratio,1.610256
+Mean image width,472.5695
+Mean image height,483.8787
+Minimum image width,174.0
+Maximum image width,1365.0
+Minimum image height,195.0
+Maximum image height,1427.0
+Duplicate records,96.0
+Duplicate SHA-256 groups,46.0
+Cross-split duplicate groups,7.0
+Test images involved in cross-split duplicates,7.0
+Training images involved in cross-split duplicates,9.0
+Percentage of test set involved in cross-split duplicates,0.7
+Valid SHA-256 entries,6000.0
+Invalid SHA-256 entries,0.0
+Missing critical metadata values,0.0

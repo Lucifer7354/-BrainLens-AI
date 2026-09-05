@@ -1,0 +1,8 @@
+check,expected,observed,status
+total_records,6000,6000,PASS
+development_records,5000,5000,PASS
+official_test_records,1000,1000,PASS
+train_records,4000,4000,PASS
+validation_records,1000,1000,PASS
+official_test_used,0,0,PASS
+development_test_filename_overlap,0,0,PASS

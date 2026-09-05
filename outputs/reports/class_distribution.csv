@@ -1,0 +1,5 @@
+tumor_label,image_count,percentage
+glioma,1401,23.35
+meningioma,1635,27.25
+no_tumor,1207,20.12
+pituitary,1757,29.28

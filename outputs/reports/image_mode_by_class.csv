@@ -1,0 +1,5 @@
+tumor_label,L,RGB
+glioma,1227,174
+meningioma,709,926
+no_tumor,0,1207
+pituitary,930,827

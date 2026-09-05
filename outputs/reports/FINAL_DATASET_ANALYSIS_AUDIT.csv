@@ -1,0 +1,9 @@
+check,status,observed,expected
+Required report files,PASS,39/39 present,39/39
+Generated figures,PASS,27 PNG figures,>0
+Classification total,PASS,6000,6000
+Class counts,PASS,"{'glioma': 1401, 'meningioma': 1635, 'no_tumor': 1207, 'pituitary': 1757}","{'glioma': 1401, 'meningioma': 1635, 'pituitary': 1757, 'no_tumor': 1207}"
+Train/Test split records,PASS,"train=True, test=True",Both present
+Dataset integrity,PASS,FAIL records detected: 0,0
+Cross-split duplicate analysis,PASS,16 records/groups reported,Analysis completed
+Statistical association analysis,PASS,3 result records,>0

@@ -1,0 +1,5 @@
+,Pred_glioma,Pred_meningioma,Pred_no_tumor,Pred_pituitary
+True_glioma,238,15,0,1
+True_meningioma,4,296,1,5
+True_no_tumor,0,0,140,0
+True_pituitary,1,1,0,298

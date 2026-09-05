@@ -1,0 +1,32 @@
+{
+    "method": "Standard Logit-Based Grad-CAM",
+    "model": "DenseNet121",
+    "target_layer": "conv5_block16_2_conv",
+    "feature_map_shape": "7x7x32",
+    "gradient_target": "pre-softmax class logit",
+    "number_of_images": 16,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "class_coverage": {
+        "glioma": 5,
+        "meningioma": 4,
+        "no_tumor": 3,
+        "pituitary": 4
+    },
+    "plane_coverage": {
+        "axial": 7,
+        "coronal": 5,
+        "sagittal": 4
+    },
+    "training_performed": false,
+    "model_modified": false,
+    "official_test_set_modified": false,
+    "tensorflow_version": "2.10.0",
+    "numpy_version": "1.23.5",
+    "random_seed": 42,
+    "status": "PASS"
+}

@@ -1,0 +1,2 @@
+dataset,official_test_total,authoritative_mask_cases,quantitative_gradcam_cases,pointing_game_accuracy,mean_energy_inside_tumor,median_energy_inside_tumor,mean_iou_030,mean_iou_050,mean_iou_070,correct_predictions_analyzed,incorrect_predictions_analyzed
+BRISC2025,1000,860,860,0.08488372093023255,0.04405792917853091,0.02483811317583725,0.04547342491353979,0.05740344968080165,0.06094628976295403,832,28

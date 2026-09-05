@@ -1,0 +1,14 @@
+check,expected,observed,status
+Original training count,5000,5000,PASS
+Model training count,4000,4000,PASS
+Validation count,1000,1000,PASS
+Official test count,1000,1000,PASS
+Train/validation filename overlap,0,0,PASS
+Train/test filename overlap,0,0,PASS
+Validation/test filename overlap,0,0,PASS
+Train/validation source-path overlap,0,0,PASS
+Train/test source-path overlap,0,0,PASS
+Validation/test source-path overlap,0,0,PASS
+All four classes in model training,4,4,PASS
+All four classes in validation,4,4,PASS
+Total modeling records,6000,6000,PASS

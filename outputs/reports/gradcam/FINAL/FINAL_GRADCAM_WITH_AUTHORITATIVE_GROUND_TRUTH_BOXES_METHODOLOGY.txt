@@ -1,0 +1,52 @@
+FINAL GRAD-CAM WITH AUTHORITATIVE GROUND-TRUTH BOXES
+====================================================
+
+Model:
+DenseNet121 final reproducible model trained on the
+5,000-image BRISC2025 development set.
+
+Official test set:
+1,000 images.
+
+Explainability subset:
+9 official test images with authoritative BRISC2025
+segmentation masks.
+
+Classes represented:
+- glioma
+- meningioma
+- pituitary
+
+MRI planes:
+Axial, coronal and sagittal were preferentially represented.
+
+Ground-truth localization:
+Tumor segmentation masks were obtained through the
+authoritative BRISC2025 manifest image-to-mask relationship.
+
+Bounding boxes:
+Bounding boxes were calculated from non-zero segmentation
+mask pixels after applying the same aspect-ratio-preserving
+resize and symmetric padding used for the 224x224 model input.
+
+Grad-CAM:
+Grad-CAM was calculated from the final convolutional layer
+of the DenseNet121 backbone using the predicted class logit.
+
+Interpretation:
+The red rectangle represents the ground-truth tumor bounding
+box derived from the segmentation mask.
+
+The Grad-CAM heatmap represents model attention and should
+not be interpreted as a segmentation prediction or exact
+tumor boundary.
+
+No official test images were used for training or model
+selection.
+
+No model parameters were modified during explainability
+analysis.
+
+Full 1,000-image Grad-CAM generation was not attempted because
+backpropagation-based Grad-CAM exceeded the available 4-GB GPU
+memory. A balanced qualitative subset was therefore used.

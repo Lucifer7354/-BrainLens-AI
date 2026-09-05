@@ -1,0 +1,5 @@
+tumor_label,images,mean,standard_deviation,minimum,median,maximum
+glioma,1401,1.0,0.0,1.0,1.0,1.0
+meningioma,1635,0.9922,0.0603,0.7282,1.0,1.6103
+pituitary,1757,1.0,0.0076,0.7984,1.0,1.2146
+no_tumor,1207,0.8578,0.1995,0.5068,1.0,1.1095

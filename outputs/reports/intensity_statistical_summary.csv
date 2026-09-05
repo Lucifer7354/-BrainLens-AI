@@ -1,0 +1,5 @@
+class,sample_size,mean,median,standard_deviation,minimum,maximum
+glioma,200,32.433,31.696,8.428,13.693,58.577
+meningioma,200,45.133,41.771,15.658,22.058,103.131
+pituitary,200,48.2,49.111,7.533,25.801,66.945
+no_tumor,200,50.426,50.577,14.113,17.27,100.264

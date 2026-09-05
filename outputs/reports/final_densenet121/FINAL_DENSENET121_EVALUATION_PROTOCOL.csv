@@ -1,0 +1,4 @@
+stage,images,purpose,official_test_used
+Development training,5000,Model training and validation,False
+Final model,5000,DenseNet121 final development training/fine-tuning,False
+Official test,1000,Final locked evaluation,True

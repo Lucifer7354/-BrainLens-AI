@@ -1,0 +1,12 @@
+property,value
+dataset,BRISC2025
+task,classification
+total_images,6000
+train_images,5000
+test_images,1000
+classes,"glioma, meningioma, no_tumor, pituitary"
+sequence,T1
+input_channels_target,3
+target_image_size,224x224
+random_seed,42
+original_dataset_modified,No

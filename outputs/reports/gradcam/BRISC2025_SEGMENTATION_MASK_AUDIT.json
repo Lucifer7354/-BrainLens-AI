@@ -1,0 +1,16 @@
+{
+    "dataset": "BRISC2025",
+    "dataset_root": "D:\\MSC Bioinformatics\\INTERNSHIP\\brisc2025",
+    "official_test_images": 1000,
+    "total_png_files_found": 4793,
+    "likely_mask_files_found": 4793,
+    "unique_mask_matches": 860,
+    "no_matches": 140,
+    "multiple_matches": 0,
+    "existing_unique_masks": 860,
+    "missing_unique_masks": 0,
+    "model_training_performed": false,
+    "official_test_modified": false,
+    "fabricated_boxes": false,
+    "status": "PASS"
+}

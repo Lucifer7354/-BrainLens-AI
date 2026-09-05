@@ -1,0 +1,17 @@
+EFFICIENTNET-B0 NAME-BASED WEIGHT MAPPING DIAGNOSTIC
+================================================================================
+TensorFlow: 2.10.0
+Expected parameters: 4,383,655
+Reconstructed parameters: 4,383,655
+H5 tensors: 320
+Model tensors: 320
+Exact name+shape matches: 0
+Multiple matches: 0
+Unmatched: 320
+
+NO WEIGHTS WERE ASSIGNED.
+NO VALIDATION WAS RUN.
+NO OFFICIAL TEST WAS RUN.
+
+Mapping CSV:
+D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\outputs\reports\efficientnetb0\EFFICIENTNETB0_NAME_BASED_WEIGHT_MAPPING.csv

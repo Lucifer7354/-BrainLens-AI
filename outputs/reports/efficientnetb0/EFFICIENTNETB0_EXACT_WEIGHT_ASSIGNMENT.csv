@@ -1,0 +1,321 @@
+tensor_index,h5_layer,h5_weight,h5_shape,model_variable,model_shape,direct_shape_match,status
+0,efficientnetb0,block6c_se_reduce/kernel:0,"(1, 1, 1152, 48)",normalization_1/mean:0,"(3,)",False,FAIL
+1,efficientnetb0,block6c_se_reduce/bias:0,"(48,)",normalization_1/variance:0,"(3,)",False,FAIL
+2,efficientnetb0,block6c_se_expand/kernel:0,"(1, 1, 48, 1152)",normalization_1/count:0,(),False,FAIL
+3,efficientnetb0,block6c_se_expand/bias:0,"(1152,)",stem_conv/kernel:0,"(3, 3, 3, 32)",False,FAIL
+4,efficientnetb0,block6c_project_conv/kernel:0,"(1, 1, 1152, 192)",stem_bn/gamma:0,"(32,)",False,FAIL
+5,efficientnetb0,block6d_expand_conv/kernel:0,"(1, 1, 192, 1152)",stem_bn/beta:0,"(32,)",False,FAIL
+6,efficientnetb0,block6d_dwconv/depthwise_kernel:0,"(5, 5, 1152, 1)",stem_bn/moving_mean:0,"(32,)",False,FAIL
+7,efficientnetb0,block6d_se_reduce/kernel:0,"(1, 1, 1152, 48)",stem_bn/moving_variance:0,"(32,)",False,FAIL
+8,efficientnetb0,block6d_se_reduce/bias:0,"(48,)",block1a_dwconv/depthwise_kernel:0,"(3, 3, 32, 1)",False,FAIL
+9,efficientnetb0,block6d_se_expand/kernel:0,"(1, 1, 48, 1152)",block1a_bn/gamma:0,"(32,)",False,FAIL
+10,efficientnetb0,block6d_se_expand/bias:0,"(1152,)",block1a_bn/beta:0,"(32,)",False,FAIL
+11,efficientnetb0,block6d_project_conv/kernel:0,"(1, 1, 1152, 192)",block1a_bn/moving_mean:0,"(32,)",False,FAIL
+12,efficientnetb0,block7a_expand_conv/kernel:0,"(1, 1, 192, 1152)",block1a_bn/moving_variance:0,"(32,)",False,FAIL
+13,efficientnetb0,block7a_dwconv/depthwise_kernel:0,"(3, 3, 1152, 1)",block1a_se_reduce/kernel:0,"(1, 1, 32, 8)",False,FAIL
+14,efficientnetb0,block7a_se_reduce/kernel:0,"(1, 1, 1152, 48)",block1a_se_reduce/bias:0,"(8,)",False,FAIL
+15,efficientnetb0,block7a_se_reduce/bias:0,"(48,)",block1a_se_expand/kernel:0,"(1, 1, 8, 32)",False,FAIL
+16,efficientnetb0,block7a_se_expand/kernel:0,"(1, 1, 48, 1152)",block1a_se_expand/bias:0,"(32,)",False,FAIL
+17,efficientnetb0,block7a_se_expand/bias:0,"(1152,)",block1a_project_conv/kernel:0,"(1, 1, 32, 16)",False,FAIL
+18,efficientnetb0,block7a_project_conv/kernel:0,"(1, 1, 1152, 320)",block1a_project_bn/gamma:0,"(16,)",False,FAIL
+19,efficientnetb0,top_conv/kernel:0,"(1, 1, 320, 1280)",block1a_project_bn/beta:0,"(16,)",False,FAIL
+20,efficientnetb0,normalization_1/mean:0,"(3,)",block1a_project_bn/moving_mean:0,"(16,)",False,FAIL
+21,efficientnetb0,normalization_1/variance:0,"(3,)",block1a_project_bn/moving_variance:0,"(16,)",False,FAIL
+22,efficientnetb0,normalization_1/count:0,(),block2a_expand_conv/kernel:0,"(1, 1, 16, 96)",False,FAIL
+23,efficientnetb0,stem_conv/kernel:0,"(3, 3, 3, 32)",block2a_expand_bn/gamma:0,"(96,)",False,FAIL
+24,efficientnetb0,stem_bn/gamma:0,"(32,)",block2a_expand_bn/beta:0,"(96,)",False,FAIL
+25,efficientnetb0,stem_bn/beta:0,"(32,)",block2a_expand_bn/moving_mean:0,"(96,)",False,FAIL
+26,efficientnetb0,stem_bn/moving_mean:0,"(32,)",block2a_expand_bn/moving_variance:0,"(96,)",False,FAIL
+27,efficientnetb0,stem_bn/moving_variance:0,"(32,)",block2a_dwconv/depthwise_kernel:0,"(3, 3, 96, 1)",False,FAIL
+28,efficientnetb0,block1a_dwconv/depthwise_kernel:0,"(3, 3, 32, 1)",block2a_bn/gamma:0,"(96,)",False,FAIL
+29,efficientnetb0,block1a_bn/gamma:0,"(32,)",block2a_bn/beta:0,"(96,)",False,FAIL
+30,efficientnetb0,block1a_bn/beta:0,"(32,)",block2a_bn/moving_mean:0,"(96,)",False,FAIL
+31,efficientnetb0,block1a_bn/moving_mean:0,"(32,)",block2a_bn/moving_variance:0,"(96,)",False,FAIL
+32,efficientnetb0,block1a_bn/moving_variance:0,"(32,)",block2a_se_reduce/kernel:0,"(1, 1, 96, 4)",False,FAIL
+33,efficientnetb0,block1a_se_reduce/kernel:0,"(1, 1, 32, 8)",block2a_se_reduce/bias:0,"(4,)",False,FAIL
+34,efficientnetb0,block1a_se_reduce/bias:0,"(8,)",block2a_se_expand/kernel:0,"(1, 1, 4, 96)",False,FAIL
+35,efficientnetb0,block1a_se_expand/kernel:0,"(1, 1, 8, 32)",block2a_se_expand/bias:0,"(96,)",False,FAIL
+36,efficientnetb0,block1a_se_expand/bias:0,"(32,)",block2a_project_conv/kernel:0,"(1, 1, 96, 24)",False,FAIL
+37,efficientnetb0,block1a_project_conv/kernel:0,"(1, 1, 32, 16)",block2a_project_bn/gamma:0,"(24,)",False,FAIL
+38,efficientnetb0,block1a_project_bn/gamma:0,"(16,)",block2a_project_bn/beta:0,"(24,)",False,FAIL
+39,efficientnetb0,block1a_project_bn/beta:0,"(16,)",block2a_project_bn/moving_mean:0,"(24,)",False,FAIL
+40,efficientnetb0,block1a_project_bn/moving_mean:0,"(16,)",block2a_project_bn/moving_variance:0,"(24,)",False,FAIL
+41,efficientnetb0,block1a_project_bn/moving_variance:0,"(16,)",block2b_expand_conv/kernel:0,"(1, 1, 24, 144)",False,FAIL
+42,efficientnetb0,block2a_expand_conv/kernel:0,"(1, 1, 16, 96)",block2b_expand_bn/gamma:0,"(144,)",False,FAIL
+43,efficientnetb0,block2a_expand_bn/gamma:0,"(96,)",block2b_expand_bn/beta:0,"(144,)",False,FAIL
+44,efficientnetb0,block2a_expand_bn/beta:0,"(96,)",block2b_expand_bn/moving_mean:0,"(144,)",False,FAIL
+45,efficientnetb0,block2a_expand_bn/moving_mean:0,"(96,)",block2b_expand_bn/moving_variance:0,"(144,)",False,FAIL
+46,efficientnetb0,block2a_expand_bn/moving_variance:0,"(96,)",block2b_dwconv/depthwise_kernel:0,"(3, 3, 144, 1)",False,FAIL
+47,efficientnetb0,block2a_dwconv/depthwise_kernel:0,"(3, 3, 96, 1)",block2b_bn/gamma:0,"(144,)",False,FAIL
+48,efficientnetb0,block2a_bn/gamma:0,"(96,)",block2b_bn/beta:0,"(144,)",False,FAIL
+49,efficientnetb0,block2a_bn/beta:0,"(96,)",block2b_bn/moving_mean:0,"(144,)",False,FAIL
+50,efficientnetb0,block2a_bn/moving_mean:0,"(96,)",block2b_bn/moving_variance:0,"(144,)",False,FAIL
+51,efficientnetb0,block2a_bn/moving_variance:0,"(96,)",block2b_se_reduce/kernel:0,"(1, 1, 144, 6)",False,FAIL
+52,efficientnetb0,block2a_se_reduce/kernel:0,"(1, 1, 96, 4)",block2b_se_reduce/bias:0,"(6,)",False,FAIL
+53,efficientnetb0,block2a_se_reduce/bias:0,"(4,)",block2b_se_expand/kernel:0,"(1, 1, 6, 144)",False,FAIL
+54,efficientnetb0,block2a_se_expand/kernel:0,"(1, 1, 4, 96)",block2b_se_expand/bias:0,"(144,)",False,FAIL
+55,efficientnetb0,block2a_se_expand/bias:0,"(96,)",block2b_project_conv/kernel:0,"(1, 1, 144, 24)",False,FAIL
+56,efficientnetb0,block2a_project_conv/kernel:0,"(1, 1, 96, 24)",block2b_project_bn/gamma:0,"(24,)",False,FAIL
+57,efficientnetb0,block2a_project_bn/gamma:0,"(24,)",block2b_project_bn/beta:0,"(24,)",True,PASS
+58,efficientnetb0,block2a_project_bn/beta:0,"(24,)",block2b_project_bn/moving_mean:0,"(24,)",True,PASS
+59,efficientnetb0,block2a_project_bn/moving_mean:0,"(24,)",block2b_project_bn/moving_variance:0,"(24,)",True,PASS
+60,efficientnetb0,block2a_project_bn/moving_variance:0,"(24,)",block3a_expand_conv/kernel:0,"(1, 1, 24, 144)",False,FAIL
+61,efficientnetb0,block2b_expand_conv/kernel:0,"(1, 1, 24, 144)",block3a_expand_bn/gamma:0,"(144,)",False,FAIL
+62,efficientnetb0,block2b_expand_bn/gamma:0,"(144,)",block3a_expand_bn/beta:0,"(144,)",True,PASS
+63,efficientnetb0,block2b_expand_bn/beta:0,"(144,)",block3a_expand_bn/moving_mean:0,"(144,)",True,PASS
+64,efficientnetb0,block2b_expand_bn/moving_mean:0,"(144,)",block3a_expand_bn/moving_variance:0,"(144,)",True,PASS
+65,efficientnetb0,block2b_expand_bn/moving_variance:0,"(144,)",block3a_dwconv/depthwise_kernel:0,"(5, 5, 144, 1)",False,FAIL
+66,efficientnetb0,block2b_dwconv/depthwise_kernel:0,"(3, 3, 144, 1)",block3a_bn/gamma:0,"(144,)",False,FAIL
+67,efficientnetb0,block2b_bn/gamma:0,"(144,)",block3a_bn/beta:0,"(144,)",True,PASS
+68,efficientnetb0,block2b_bn/beta:0,"(144,)",block3a_bn/moving_mean:0,"(144,)",True,PASS
+69,efficientnetb0,block2b_bn/moving_mean:0,"(144,)",block3a_bn/moving_variance:0,"(144,)",True,PASS
+70,efficientnetb0,block2b_bn/moving_variance:0,"(144,)",block3a_se_reduce/kernel:0,"(1, 1, 144, 6)",False,FAIL
+71,efficientnetb0,block2b_se_reduce/kernel:0,"(1, 1, 144, 6)",block3a_se_reduce/bias:0,"(6,)",False,FAIL
+72,efficientnetb0,block2b_se_reduce/bias:0,"(6,)",block3a_se_expand/kernel:0,"(1, 1, 6, 144)",False,FAIL
+73,efficientnetb0,block2b_se_expand/kernel:0,"(1, 1, 6, 144)",block3a_se_expand/bias:0,"(144,)",False,FAIL
+74,efficientnetb0,block2b_se_expand/bias:0,"(144,)",block3a_project_conv/kernel:0,"(1, 1, 144, 40)",False,FAIL
+75,efficientnetb0,block2b_project_conv/kernel:0,"(1, 1, 144, 24)",block3a_project_bn/gamma:0,"(40,)",False,FAIL
+76,efficientnetb0,block2b_project_bn/gamma:0,"(24,)",block3a_project_bn/beta:0,"(40,)",False,FAIL
+77,efficientnetb0,block2b_project_bn/beta:0,"(24,)",block3a_project_bn/moving_mean:0,"(40,)",False,FAIL
+78,efficientnetb0,block2b_project_bn/moving_mean:0,"(24,)",block3a_project_bn/moving_variance:0,"(40,)",False,FAIL
+79,efficientnetb0,block2b_project_bn/moving_variance:0,"(24,)",block3b_expand_conv/kernel:0,"(1, 1, 40, 240)",False,FAIL
+80,efficientnetb0,block3a_expand_conv/kernel:0,"(1, 1, 24, 144)",block3b_expand_bn/gamma:0,"(240,)",False,FAIL
+81,efficientnetb0,block3a_expand_bn/gamma:0,"(144,)",block3b_expand_bn/beta:0,"(240,)",False,FAIL
+82,efficientnetb0,block3a_expand_bn/beta:0,"(144,)",block3b_expand_bn/moving_mean:0,"(240,)",False,FAIL
+83,efficientnetb0,block3a_expand_bn/moving_mean:0,"(144,)",block3b_expand_bn/moving_variance:0,"(240,)",False,FAIL
+84,efficientnetb0,block3a_expand_bn/moving_variance:0,"(144,)",block3b_dwconv/depthwise_kernel:0,"(5, 5, 240, 1)",False,FAIL
+85,efficientnetb0,block3a_dwconv/depthwise_kernel:0,"(5, 5, 144, 1)",block3b_bn/gamma:0,"(240,)",False,FAIL
+86,efficientnetb0,block3a_bn/gamma:0,"(144,)",block3b_bn/beta:0,"(240,)",False,FAIL
+87,efficientnetb0,block3a_bn/beta:0,"(144,)",block3b_bn/moving_mean:0,"(240,)",False,FAIL
+88,efficientnetb0,block3a_bn/moving_mean:0,"(144,)",block3b_bn/moving_variance:0,"(240,)",False,FAIL
+89,efficientnetb0,block3a_bn/moving_variance:0,"(144,)",block3b_se_reduce/kernel:0,"(1, 1, 240, 10)",False,FAIL
+90,efficientnetb0,block3a_se_reduce/kernel:0,"(1, 1, 144, 6)",block3b_se_reduce/bias:0,"(10,)",False,FAIL
+91,efficientnetb0,block3a_se_reduce/bias:0,"(6,)",block3b_se_expand/kernel:0,"(1, 1, 10, 240)",False,FAIL
+92,efficientnetb0,block3a_se_expand/kernel:0,"(1, 1, 6, 144)",block3b_se_expand/bias:0,"(240,)",False,FAIL
+93,efficientnetb0,block3a_se_expand/bias:0,"(144,)",block3b_project_conv/kernel:0,"(1, 1, 240, 40)",False,FAIL
+94,efficientnetb0,block3a_project_conv/kernel:0,"(1, 1, 144, 40)",block3b_project_bn/gamma:0,"(40,)",False,FAIL
+95,efficientnetb0,block3a_project_bn/gamma:0,"(40,)",block3b_project_bn/beta:0,"(40,)",True,PASS
+96,efficientnetb0,block3a_project_bn/beta:0,"(40,)",block3b_project_bn/moving_mean:0,"(40,)",True,PASS
+97,efficientnetb0,block3a_project_bn/moving_mean:0,"(40,)",block3b_project_bn/moving_variance:0,"(40,)",True,PASS
+98,efficientnetb0,block3a_project_bn/moving_variance:0,"(40,)",block4a_expand_conv/kernel:0,"(1, 1, 40, 240)",False,FAIL
+99,efficientnetb0,block3b_expand_conv/kernel:0,"(1, 1, 40, 240)",block4a_expand_bn/gamma:0,"(240,)",False,FAIL
+100,efficientnetb0,block3b_expand_bn/gamma:0,"(240,)",block4a_expand_bn/beta:0,"(240,)",True,PASS
+101,efficientnetb0,block3b_expand_bn/beta:0,"(240,)",block4a_expand_bn/moving_mean:0,"(240,)",True,PASS
+102,efficientnetb0,block3b_expand_bn/moving_mean:0,"(240,)",block4a_expand_bn/moving_variance:0,"(240,)",True,PASS
+103,efficientnetb0,block3b_expand_bn/moving_variance:0,"(240,)",block4a_dwconv/depthwise_kernel:0,"(3, 3, 240, 1)",False,FAIL
+104,efficientnetb0,block3b_dwconv/depthwise_kernel:0,"(5, 5, 240, 1)",block4a_bn/gamma:0,"(240,)",False,FAIL
+105,efficientnetb0,block3b_bn/gamma:0,"(240,)",block4a_bn/beta:0,"(240,)",True,PASS
+106,efficientnetb0,block3b_bn/beta:0,"(240,)",block4a_bn/moving_mean:0,"(240,)",True,PASS
+107,efficientnetb0,block3b_bn/moving_mean:0,"(240,)",block4a_bn/moving_variance:0,"(240,)",True,PASS
+108,efficientnetb0,block3b_bn/moving_variance:0,"(240,)",block4a_se_reduce/kernel:0,"(1, 1, 240, 10)",False,FAIL
+109,efficientnetb0,block3b_se_reduce/kernel:0,"(1, 1, 240, 10)",block4a_se_reduce/bias:0,"(10,)",False,FAIL
+110,efficientnetb0,block3b_se_reduce/bias:0,"(10,)",block4a_se_expand/kernel:0,"(1, 1, 10, 240)",False,FAIL
+111,efficientnetb0,block3b_se_expand/kernel:0,"(1, 1, 10, 240)",block4a_se_expand/bias:0,"(240,)",False,FAIL
+112,efficientnetb0,block3b_se_expand/bias:0,"(240,)",block4a_project_conv/kernel:0,"(1, 1, 240, 80)",False,FAIL
+113,efficientnetb0,block3b_project_conv/kernel:0,"(1, 1, 240, 40)",block4a_project_bn/gamma:0,"(80,)",False,FAIL
+114,efficientnetb0,block3b_project_bn/gamma:0,"(40,)",block4a_project_bn/beta:0,"(80,)",False,FAIL
+115,efficientnetb0,block3b_project_bn/beta:0,"(40,)",block4a_project_bn/moving_mean:0,"(80,)",False,FAIL
+116,efficientnetb0,block3b_project_bn/moving_mean:0,"(40,)",block4a_project_bn/moving_variance:0,"(80,)",False,FAIL
+117,efficientnetb0,block3b_project_bn/moving_variance:0,"(40,)",block4b_expand_conv/kernel:0,"(1, 1, 80, 480)",False,FAIL
+118,efficientnetb0,block4a_expand_conv/kernel:0,"(1, 1, 40, 240)",block4b_expand_bn/gamma:0,"(480,)",False,FAIL
+119,efficientnetb0,block4a_expand_bn/gamma:0,"(240,)",block4b_expand_bn/beta:0,"(480,)",False,FAIL
+120,efficientnetb0,block4a_expand_bn/beta:0,"(240,)",block4b_expand_bn/moving_mean:0,"(480,)",False,FAIL
+121,efficientnetb0,block4a_expand_bn/moving_mean:0,"(240,)",block4b_expand_bn/moving_variance:0,"(480,)",False,FAIL
+122,efficientnetb0,block4a_expand_bn/moving_variance:0,"(240,)",block4b_dwconv/depthwise_kernel:0,"(3, 3, 480, 1)",False,FAIL
+123,efficientnetb0,block4a_dwconv/depthwise_kernel:0,"(3, 3, 240, 1)",block4b_bn/gamma:0,"(480,)",False,FAIL
+124,efficientnetb0,block4a_bn/gamma:0,"(240,)",block4b_bn/beta:0,"(480,)",False,FAIL
+125,efficientnetb0,block4a_bn/beta:0,"(240,)",block4b_bn/moving_mean:0,"(480,)",False,FAIL
+126,efficientnetb0,block4a_bn/moving_mean:0,"(240,)",block4b_bn/moving_variance:0,"(480,)",False,FAIL
+127,efficientnetb0,block4a_bn/moving_variance:0,"(240,)",block4b_se_reduce/kernel:0,"(1, 1, 480, 20)",False,FAIL
+128,efficientnetb0,block4a_se_reduce/kernel:0,"(1, 1, 240, 10)",block4b_se_reduce/bias:0,"(20,)",False,FAIL
+129,efficientnetb0,block4a_se_reduce/bias:0,"(10,)",block4b_se_expand/kernel:0,"(1, 1, 20, 480)",False,FAIL
+130,efficientnetb0,block4a_se_expand/kernel:0,"(1, 1, 10, 240)",block4b_se_expand/bias:0,"(480,)",False,FAIL
+131,efficientnetb0,block4a_se_expand/bias:0,"(240,)",block4b_project_conv/kernel:0,"(1, 1, 480, 80)",False,FAIL
+132,efficientnetb0,block4a_project_conv/kernel:0,"(1, 1, 240, 80)",block4b_project_bn/gamma:0,"(80,)",False,FAIL
+133,efficientnetb0,block4a_project_bn/gamma:0,"(80,)",block4b_project_bn/beta:0,"(80,)",True,PASS
+134,efficientnetb0,block4a_project_bn/beta:0,"(80,)",block4b_project_bn/moving_mean:0,"(80,)",True,PASS
+135,efficientnetb0,block4a_project_bn/moving_mean:0,"(80,)",block4b_project_bn/moving_variance:0,"(80,)",True,PASS
+136,efficientnetb0,block4a_project_bn/moving_variance:0,"(80,)",block4c_expand_conv/kernel:0,"(1, 1, 80, 480)",False,FAIL
+137,efficientnetb0,block4b_expand_conv/kernel:0,"(1, 1, 80, 480)",block4c_expand_bn/gamma:0,"(480,)",False,FAIL
+138,efficientnetb0,block4b_expand_bn/gamma:0,"(480,)",block4c_expand_bn/beta:0,"(480,)",True,PASS
+139,efficientnetb0,block4b_expand_bn/beta:0,"(480,)",block4c_expand_bn/moving_mean:0,"(480,)",True,PASS
+140,efficientnetb0,block4b_expand_bn/moving_mean:0,"(480,)",block4c_expand_bn/moving_variance:0,"(480,)",True,PASS
+141,efficientnetb0,block4b_expand_bn/moving_variance:0,"(480,)",block4c_dwconv/depthwise_kernel:0,"(3, 3, 480, 1)",False,FAIL
+142,efficientnetb0,block4b_dwconv/depthwise_kernel:0,"(3, 3, 480, 1)",block4c_bn/gamma:0,"(480,)",False,FAIL
+143,efficientnetb0,block4b_bn/gamma:0,"(480,)",block4c_bn/beta:0,"(480,)",True,PASS
+144,efficientnetb0,block4b_bn/beta:0,"(480,)",block4c_bn/moving_mean:0,"(480,)",True,PASS
+145,efficientnetb0,block4b_bn/moving_mean:0,"(480,)",block4c_bn/moving_variance:0,"(480,)",True,PASS
+146,efficientnetb0,block4b_bn/moving_variance:0,"(480,)",block4c_se_reduce/kernel:0,"(1, 1, 480, 20)",False,FAIL
+147,efficientnetb0,block4b_se_reduce/kernel:0,"(1, 1, 480, 20)",block4c_se_reduce/bias:0,"(20,)",False,FAIL
+148,efficientnetb0,block4b_se_reduce/bias:0,"(20,)",block4c_se_expand/kernel:0,"(1, 1, 20, 480)",False,FAIL
+149,efficientnetb0,block4b_se_expand/kernel:0,"(1, 1, 20, 480)",block4c_se_expand/bias:0,"(480,)",False,FAIL
+150,efficientnetb0,block4b_se_expand/bias:0,"(480,)",block4c_project_conv/kernel:0,"(1, 1, 480, 80)",False,FAIL
+151,efficientnetb0,block4b_project_conv/kernel:0,"(1, 1, 480, 80)",block4c_project_bn/gamma:0,"(80,)",False,FAIL
+152,efficientnetb0,block4b_project_bn/gamma:0,"(80,)",block4c_project_bn/beta:0,"(80,)",True,PASS
+153,efficientnetb0,block4b_project_bn/beta:0,"(80,)",block4c_project_bn/moving_mean:0,"(80,)",True,PASS
+154,efficientnetb0,block4b_project_bn/moving_mean:0,"(80,)",block4c_project_bn/moving_variance:0,"(80,)",True,PASS
+155,efficientnetb0,block4b_project_bn/moving_variance:0,"(80,)",block5a_expand_conv/kernel:0,"(1, 1, 80, 480)",False,FAIL
+156,efficientnetb0,block4c_expand_conv/kernel:0,"(1, 1, 80, 480)",block5a_expand_bn/gamma:0,"(480,)",False,FAIL
+157,efficientnetb0,block4c_expand_bn/gamma:0,"(480,)",block5a_expand_bn/beta:0,"(480,)",True,PASS
+158,efficientnetb0,block4c_expand_bn/beta:0,"(480,)",block5a_expand_bn/moving_mean:0,"(480,)",True,PASS
+159,efficientnetb0,block4c_expand_bn/moving_mean:0,"(480,)",block5a_expand_bn/moving_variance:0,"(480,)",True,PASS
+160,efficientnetb0,block4c_expand_bn/moving_variance:0,"(480,)",block5a_dwconv/depthwise_kernel:0,"(5, 5, 480, 1)",False,FAIL
+161,efficientnetb0,block4c_dwconv/depthwise_kernel:0,"(3, 3, 480, 1)",block5a_bn/gamma:0,"(480,)",False,FAIL
+162,efficientnetb0,block4c_bn/gamma:0,"(480,)",block5a_bn/beta:0,"(480,)",True,PASS
+163,efficientnetb0,block4c_bn/beta:0,"(480,)",block5a_bn/moving_mean:0,"(480,)",True,PASS
+164,efficientnetb0,block4c_bn/moving_mean:0,"(480,)",block5a_bn/moving_variance:0,"(480,)",True,PASS
+165,efficientnetb0,block4c_bn/moving_variance:0,"(480,)",block5a_se_reduce/kernel:0,"(1, 1, 480, 20)",False,FAIL
+166,efficientnetb0,block4c_se_reduce/kernel:0,"(1, 1, 480, 20)",block5a_se_reduce/bias:0,"(20,)",False,FAIL
+167,efficientnetb0,block4c_se_reduce/bias:0,"(20,)",block5a_se_expand/kernel:0,"(1, 1, 20, 480)",False,FAIL
+168,efficientnetb0,block4c_se_expand/kernel:0,"(1, 1, 20, 480)",block5a_se_expand/bias:0,"(480,)",False,FAIL
+169,efficientnetb0,block4c_se_expand/bias:0,"(480,)",block5a_project_conv/kernel:0,"(1, 1, 480, 112)",False,FAIL
+170,efficientnetb0,block4c_project_conv/kernel:0,"(1, 1, 480, 80)",block5a_project_bn/gamma:0,"(112,)",False,FAIL
+171,efficientnetb0,block4c_project_bn/gamma:0,"(80,)",block5a_project_bn/beta:0,"(112,)",False,FAIL
+172,efficientnetb0,block4c_project_bn/beta:0,"(80,)",block5a_project_bn/moving_mean:0,"(112,)",False,FAIL
+173,efficientnetb0,block4c_project_bn/moving_mean:0,"(80,)",block5a_project_bn/moving_variance:0,"(112,)",False,FAIL
+174,efficientnetb0,block4c_project_bn/moving_variance:0,"(80,)",block5b_expand_conv/kernel:0,"(1, 1, 112, 672)",False,FAIL
+175,efficientnetb0,block5a_expand_conv/kernel:0,"(1, 1, 80, 480)",block5b_expand_bn/gamma:0,"(672,)",False,FAIL
+176,efficientnetb0,block5a_expand_bn/gamma:0,"(480,)",block5b_expand_bn/beta:0,"(672,)",False,FAIL
+177,efficientnetb0,block5a_expand_bn/beta:0,"(480,)",block5b_expand_bn/moving_mean:0,"(672,)",False,FAIL
+178,efficientnetb0,block5a_expand_bn/moving_mean:0,"(480,)",block5b_expand_bn/moving_variance:0,"(672,)",False,FAIL
+179,efficientnetb0,block5a_expand_bn/moving_variance:0,"(480,)",block5b_dwconv/depthwise_kernel:0,"(5, 5, 672, 1)",False,FAIL
+180,efficientnetb0,block5a_dwconv/depthwise_kernel:0,"(5, 5, 480, 1)",block5b_bn/gamma:0,"(672,)",False,FAIL
+181,efficientnetb0,block5a_bn/gamma:0,"(480,)",block5b_bn/beta:0,"(672,)",False,FAIL
+182,efficientnetb0,block5a_bn/beta:0,"(480,)",block5b_bn/moving_mean:0,"(672,)",False,FAIL
+183,efficientnetb0,block5a_bn/moving_mean:0,"(480,)",block5b_bn/moving_variance:0,"(672,)",False,FAIL
+184,efficientnetb0,block5a_bn/moving_variance:0,"(480,)",block5b_se_reduce/kernel:0,"(1, 1, 672, 28)",False,FAIL
+185,efficientnetb0,block5a_se_reduce/kernel:0,"(1, 1, 480, 20)",block5b_se_reduce/bias:0,"(28,)",False,FAIL
+186,efficientnetb0,block5a_se_reduce/bias:0,"(20,)",block5b_se_expand/kernel:0,"(1, 1, 28, 672)",False,FAIL
+187,efficientnetb0,block5a_se_expand/kernel:0,"(1, 1, 20, 480)",block5b_se_expand/bias:0,"(672,)",False,FAIL
+188,efficientnetb0,block5a_se_expand/bias:0,"(480,)",block5b_project_conv/kernel:0,"(1, 1, 672, 112)",False,FAIL
+189,efficientnetb0,block5a_project_conv/kernel:0,"(1, 1, 480, 112)",block5b_project_bn/gamma:0,"(112,)",False,FAIL
+190,efficientnetb0,block5a_project_bn/gamma:0,"(112,)",block5b_project_bn/beta:0,"(112,)",True,PASS
+191,efficientnetb0,block5a_project_bn/beta:0,"(112,)",block5b_project_bn/moving_mean:0,"(112,)",True,PASS
+192,efficientnetb0,block5a_project_bn/moving_mean:0,"(112,)",block5b_project_bn/moving_variance:0,"(112,)",True,PASS
+193,efficientnetb0,block5a_project_bn/moving_variance:0,"(112,)",block5c_expand_conv/kernel:0,"(1, 1, 112, 672)",False,FAIL
+194,efficientnetb0,block5b_expand_conv/kernel:0,"(1, 1, 112, 672)",block5c_expand_bn/gamma:0,"(672,)",False,FAIL
+195,efficientnetb0,block5b_expand_bn/gamma:0,"(672,)",block5c_expand_bn/beta:0,"(672,)",True,PASS
+196,efficientnetb0,block5b_expand_bn/beta:0,"(672,)",block5c_expand_bn/moving_mean:0,"(672,)",True,PASS
+197,efficientnetb0,block5b_expand_bn/moving_mean:0,"(672,)",block5c_expand_bn/moving_variance:0,"(672,)",True,PASS
+198,efficientnetb0,block5b_expand_bn/moving_variance:0,"(672,)",block5c_dwconv/depthwise_kernel:0,"(5, 5, 672, 1)",False,FAIL
+199,efficientnetb0,block5b_dwconv/depthwise_kernel:0,"(5, 5, 672, 1)",block5c_bn/gamma:0,"(672,)",False,FAIL
+200,efficientnetb0,block5b_bn/gamma:0,"(672,)",block5c_bn/beta:0,"(672,)",True,PASS
+201,efficientnetb0,block5b_bn/beta:0,"(672,)",block5c_bn/moving_mean:0,"(672,)",True,PASS
+202,efficientnetb0,block5b_bn/moving_mean:0,"(672,)",block5c_bn/moving_variance:0,"(672,)",True,PASS
+203,efficientnetb0,block5b_bn/moving_variance:0,"(672,)",block5c_se_reduce/kernel:0,"(1, 1, 672, 28)",False,FAIL
+204,efficientnetb0,block5b_se_reduce/kernel:0,"(1, 1, 672, 28)",block5c_se_reduce/bias:0,"(28,)",False,FAIL
+205,efficientnetb0,block5b_se_reduce/bias:0,"(28,)",block5c_se_expand/kernel:0,"(1, 1, 28, 672)",False,FAIL
+206,efficientnetb0,block5b_se_expand/kernel:0,"(1, 1, 28, 672)",block5c_se_expand/bias:0,"(672,)",False,FAIL
+207,efficientnetb0,block5b_se_expand/bias:0,"(672,)",block5c_project_conv/kernel:0,"(1, 1, 672, 112)",False,FAIL
+208,efficientnetb0,block5b_project_conv/kernel:0,"(1, 1, 672, 112)",block5c_project_bn/gamma:0,"(112,)",False,FAIL
+209,efficientnetb0,block5b_project_bn/gamma:0,"(112,)",block5c_project_bn/beta:0,"(112,)",True,PASS
+210,efficientnetb0,block5b_project_bn/beta:0,"(112,)",block5c_project_bn/moving_mean:0,"(112,)",True,PASS
+211,efficientnetb0,block5b_project_bn/moving_mean:0,"(112,)",block5c_project_bn/moving_variance:0,"(112,)",True,PASS
+212,efficientnetb0,block5b_project_bn/moving_variance:0,"(112,)",block6a_expand_conv/kernel:0,"(1, 1, 112, 672)",False,FAIL
+213,efficientnetb0,block5c_expand_conv/kernel:0,"(1, 1, 112, 672)",block6a_expand_bn/gamma:0,"(672,)",False,FAIL
+214,efficientnetb0,block5c_expand_bn/gamma:0,"(672,)",block6a_expand_bn/beta:0,"(672,)",True,PASS
+215,efficientnetb0,block5c_expand_bn/beta:0,"(672,)",block6a_expand_bn/moving_mean:0,"(672,)",True,PASS
+216,efficientnetb0,block5c_expand_bn/moving_mean:0,"(672,)",block6a_expand_bn/moving_variance:0,"(672,)",True,PASS
+217,efficientnetb0,block5c_expand_bn/moving_variance:0,"(672,)",block6a_dwconv/depthwise_kernel:0,"(5, 5, 672, 1)",False,FAIL
+218,efficientnetb0,block5c_dwconv/depthwise_kernel:0,"(5, 5, 672, 1)",block6a_bn/gamma:0,"(672,)",False,FAIL
+219,efficientnetb0,block5c_bn/gamma:0,"(672,)",block6a_bn/beta:0,"(672,)",True,PASS
+220,efficientnetb0,block5c_bn/beta:0,"(672,)",block6a_bn/moving_mean:0,"(672,)",True,PASS
+221,efficientnetb0,block5c_bn/moving_mean:0,"(672,)",block6a_bn/moving_variance:0,"(672,)",True,PASS
+222,efficientnetb0,block5c_bn/moving_variance:0,"(672,)",block6a_se_reduce/kernel:0,"(1, 1, 672, 28)",False,FAIL
+223,efficientnetb0,block5c_se_reduce/kernel:0,"(1, 1, 672, 28)",block6a_se_reduce/bias:0,"(28,)",False,FAIL
+224,efficientnetb0,block5c_se_reduce/bias:0,"(28,)",block6a_se_expand/kernel:0,"(1, 1, 28, 672)",False,FAIL
+225,efficientnetb0,block5c_se_expand/kernel:0,"(1, 1, 28, 672)",block6a_se_expand/bias:0,"(672,)",False,FAIL
+226,efficientnetb0,block5c_se_expand/bias:0,"(672,)",block6a_project_conv/kernel:0,"(1, 1, 672, 192)",False,FAIL
+227,efficientnetb0,block5c_project_conv/kernel:0,"(1, 1, 672, 112)",block6a_project_bn/gamma:0,"(192,)",False,FAIL
+228,efficientnetb0,block5c_project_bn/gamma:0,"(112,)",block6a_project_bn/beta:0,"(192,)",False,FAIL
+229,efficientnetb0,block5c_project_bn/beta:0,"(112,)",block6a_project_bn/moving_mean:0,"(192,)",False,FAIL
+230,efficientnetb0,block5c_project_bn/moving_mean:0,"(112,)",block6a_project_bn/moving_variance:0,"(192,)",False,FAIL
+231,efficientnetb0,block5c_project_bn/moving_variance:0,"(112,)",block6b_expand_conv/kernel:0,"(1, 1, 192, 1152)",False,FAIL
+232,efficientnetb0,block6a_expand_conv/kernel:0,"(1, 1, 112, 672)",block6b_expand_bn/gamma:0,"(1152,)",False,FAIL
+233,efficientnetb0,block6a_expand_bn/gamma:0,"(672,)",block6b_expand_bn/beta:0,"(1152,)",False,FAIL
+234,efficientnetb0,block6a_expand_bn/beta:0,"(672,)",block6b_expand_bn/moving_mean:0,"(1152,)",False,FAIL
+235,efficientnetb0,block6a_expand_bn/moving_mean:0,"(672,)",block6b_expand_bn/moving_variance:0,"(1152,)",False,FAIL
+236,efficientnetb0,block6a_expand_bn/moving_variance:0,"(672,)",block6b_dwconv/depthwise_kernel:0,"(5, 5, 1152, 1)",False,FAIL
+237,efficientnetb0,block6a_dwconv/depthwise_kernel:0,"(5, 5, 672, 1)",block6b_bn/gamma:0,"(1152,)",False,FAIL
+238,efficientnetb0,block6a_bn/gamma:0,"(672,)",block6b_bn/beta:0,"(1152,)",False,FAIL
+239,efficientnetb0,block6a_bn/beta:0,"(672,)",block6b_bn/moving_mean:0,"(1152,)",False,FAIL
+240,efficientnetb0,block6a_bn/moving_mean:0,"(672,)",block6b_bn/moving_variance:0,"(1152,)",False,FAIL
+241,efficientnetb0,block6a_bn/moving_variance:0,"(672,)",block6b_se_reduce/kernel:0,"(1, 1, 1152, 48)",False,FAIL
+242,efficientnetb0,block6a_se_reduce/kernel:0,"(1, 1, 672, 28)",block6b_se_reduce/bias:0,"(48,)",False,FAIL
+243,efficientnetb0,block6a_se_reduce/bias:0,"(28,)",block6b_se_expand/kernel:0,"(1, 1, 48, 1152)",False,FAIL
+244,efficientnetb0,block6a_se_expand/kernel:0,"(1, 1, 28, 672)",block6b_se_expand/bias:0,"(1152,)",False,FAIL
+245,efficientnetb0,block6a_se_expand/bias:0,"(672,)",block6b_project_conv/kernel:0,"(1, 1, 1152, 192)",False,FAIL
+246,efficientnetb0,block6a_project_conv/kernel:0,"(1, 1, 672, 192)",block6b_project_bn/gamma:0,"(192,)",False,FAIL
+247,efficientnetb0,block6a_project_bn/gamma:0,"(192,)",block6b_project_bn/beta:0,"(192,)",True,PASS
+248,efficientnetb0,block6a_project_bn/beta:0,"(192,)",block6b_project_bn/moving_mean:0,"(192,)",True,PASS
+249,efficientnetb0,block6a_project_bn/moving_mean:0,"(192,)",block6b_project_bn/moving_variance:0,"(192,)",True,PASS
+250,efficientnetb0,block6a_project_bn/moving_variance:0,"(192,)",block6c_expand_conv/kernel:0,"(1, 1, 192, 1152)",False,FAIL
+251,efficientnetb0,block6b_expand_conv/kernel:0,"(1, 1, 192, 1152)",block6c_expand_bn/gamma:0,"(1152,)",False,FAIL
+252,efficientnetb0,block6b_expand_bn/gamma:0,"(1152,)",block6c_expand_bn/beta:0,"(1152,)",True,PASS
+253,efficientnetb0,block6b_expand_bn/beta:0,"(1152,)",block6c_expand_bn/moving_mean:0,"(1152,)",True,PASS
+254,efficientnetb0,block6b_expand_bn/moving_mean:0,"(1152,)",block6c_expand_bn/moving_variance:0,"(1152,)",True,PASS
+255,efficientnetb0,block6b_expand_bn/moving_variance:0,"(1152,)",block6c_dwconv/depthwise_kernel:0,"(5, 5, 1152, 1)",False,FAIL
+256,efficientnetb0,block6b_dwconv/depthwise_kernel:0,"(5, 5, 1152, 1)",block6c_bn/gamma:0,"(1152,)",False,FAIL
+257,efficientnetb0,block6b_bn/gamma:0,"(1152,)",block6c_bn/beta:0,"(1152,)",True,PASS
+258,efficientnetb0,block6b_bn/beta:0,"(1152,)",block6c_bn/moving_mean:0,"(1152,)",True,PASS
+259,efficientnetb0,block6b_bn/moving_mean:0,"(1152,)",block6c_bn/moving_variance:0,"(1152,)",True,PASS
+260,efficientnetb0,block6b_bn/moving_variance:0,"(1152,)",block6c_se_reduce/kernel:0,"(1, 1, 1152, 48)",False,FAIL
+261,efficientnetb0,block6b_se_reduce/kernel:0,"(1, 1, 1152, 48)",block6c_se_reduce/bias:0,"(48,)",False,FAIL
+262,efficientnetb0,block6b_se_reduce/bias:0,"(48,)",block6c_se_expand/kernel:0,"(1, 1, 48, 1152)",False,FAIL
+263,efficientnetb0,block6b_se_expand/kernel:0,"(1, 1, 48, 1152)",block6c_se_expand/bias:0,"(1152,)",False,FAIL
+264,efficientnetb0,block6b_se_expand/bias:0,"(1152,)",block6c_project_conv/kernel:0,"(1, 1, 1152, 192)",False,FAIL
+265,efficientnetb0,block6b_project_conv/kernel:0,"(1, 1, 1152, 192)",block6c_project_bn/gamma:0,"(192,)",False,FAIL
+266,efficientnetb0,block6b_project_bn/gamma:0,"(192,)",block6c_project_bn/beta:0,"(192,)",True,PASS
+267,efficientnetb0,block6b_project_bn/beta:0,"(192,)",block6c_project_bn/moving_mean:0,"(192,)",True,PASS
+268,efficientnetb0,block6b_project_bn/moving_mean:0,"(192,)",block6c_project_bn/moving_variance:0,"(192,)",True,PASS
+269,efficientnetb0,block6b_project_bn/moving_variance:0,"(192,)",block6d_expand_conv/kernel:0,"(1, 1, 192, 1152)",False,FAIL
+270,efficientnetb0,block6c_expand_conv/kernel:0,"(1, 1, 192, 1152)",block6d_expand_bn/gamma:0,"(1152,)",False,FAIL
+271,efficientnetb0,block6c_expand_bn/gamma:0,"(1152,)",block6d_expand_bn/beta:0,"(1152,)",True,PASS
+272,efficientnetb0,block6c_expand_bn/beta:0,"(1152,)",block6d_expand_bn/moving_mean:0,"(1152,)",True,PASS
+273,efficientnetb0,block6c_expand_bn/moving_mean:0,"(1152,)",block6d_expand_bn/moving_variance:0,"(1152,)",True,PASS
+274,efficientnetb0,block6c_expand_bn/moving_variance:0,"(1152,)",block6d_dwconv/depthwise_kernel:0,"(5, 5, 1152, 1)",False,FAIL
+275,efficientnetb0,block6c_dwconv/depthwise_kernel:0,"(5, 5, 1152, 1)",block6d_bn/gamma:0,"(1152,)",False,FAIL
+276,efficientnetb0,block6c_bn/gamma:0,"(1152,)",block6d_bn/beta:0,"(1152,)",True,PASS
+277,efficientnetb0,block6c_bn/beta:0,"(1152,)",block6d_bn/moving_mean:0,"(1152,)",True,PASS
+278,efficientnetb0,block6c_bn/moving_mean:0,"(1152,)",block6d_bn/moving_variance:0,"(1152,)",True,PASS
+279,efficientnetb0,block6c_bn/moving_variance:0,"(1152,)",block6d_se_reduce/kernel:0,"(1, 1, 1152, 48)",False,FAIL
+280,efficientnetb0,block6c_project_bn/gamma:0,"(192,)",block6d_se_reduce/bias:0,"(48,)",False,FAIL
+281,efficientnetb0,block6c_project_bn/beta:0,"(192,)",block6d_se_expand/kernel:0,"(1, 1, 48, 1152)",False,FAIL
+282,efficientnetb0,block6c_project_bn/moving_mean:0,"(192,)",block6d_se_expand/bias:0,"(1152,)",False,FAIL
+283,efficientnetb0,block6c_project_bn/moving_variance:0,"(192,)",block6d_project_conv/kernel:0,"(1, 1, 1152, 192)",False,FAIL
+284,efficientnetb0,block6d_expand_bn/gamma:0,"(1152,)",block6d_project_bn/gamma:0,"(192,)",False,FAIL
+285,efficientnetb0,block6d_expand_bn/beta:0,"(1152,)",block6d_project_bn/beta:0,"(192,)",False,FAIL
+286,efficientnetb0,block6d_expand_bn/moving_mean:0,"(1152,)",block6d_project_bn/moving_mean:0,"(192,)",False,FAIL
+287,efficientnetb0,block6d_expand_bn/moving_variance:0,"(1152,)",block6d_project_bn/moving_variance:0,"(192,)",False,FAIL
+288,efficientnetb0,block6d_bn/gamma:0,"(1152,)",block7a_expand_conv/kernel:0,"(1, 1, 192, 1152)",False,FAIL
+289,efficientnetb0,block6d_bn/beta:0,"(1152,)",block7a_expand_bn/gamma:0,"(1152,)",True,PASS
+290,efficientnetb0,block6d_bn/moving_mean:0,"(1152,)",block7a_expand_bn/beta:0,"(1152,)",True,PASS
+291,efficientnetb0,block6d_bn/moving_variance:0,"(1152,)",block7a_expand_bn/moving_mean:0,"(1152,)",True,PASS
+292,efficientnetb0,block6d_project_bn/gamma:0,"(192,)",block7a_expand_bn/moving_variance:0,"(1152,)",False,FAIL
+293,efficientnetb0,block6d_project_bn/beta:0,"(192,)",block7a_dwconv/depthwise_kernel:0,"(3, 3, 1152, 1)",False,FAIL
+294,efficientnetb0,block6d_project_bn/moving_mean:0,"(192,)",block7a_bn/gamma:0,"(1152,)",False,FAIL
+295,efficientnetb0,block6d_project_bn/moving_variance:0,"(192,)",block7a_bn/beta:0,"(1152,)",False,FAIL
+296,efficientnetb0,block7a_expand_bn/gamma:0,"(1152,)",block7a_bn/moving_mean:0,"(1152,)",True,PASS
+297,efficientnetb0,block7a_expand_bn/beta:0,"(1152,)",block7a_bn/moving_variance:0,"(1152,)",True,PASS
+298,efficientnetb0,block7a_expand_bn/moving_mean:0,"(1152,)",block7a_se_reduce/kernel:0,"(1, 1, 1152, 48)",False,FAIL
+299,efficientnetb0,block7a_expand_bn/moving_variance:0,"(1152,)",block7a_se_reduce/bias:0,"(48,)",False,FAIL
+300,efficientnetb0,block7a_bn/gamma:0,"(1152,)",block7a_se_expand/kernel:0,"(1, 1, 48, 1152)",False,FAIL
+301,efficientnetb0,block7a_bn/beta:0,"(1152,)",block7a_se_expand/bias:0,"(1152,)",True,PASS
+302,efficientnetb0,block7a_bn/moving_mean:0,"(1152,)",block7a_project_conv/kernel:0,"(1, 1, 1152, 320)",False,FAIL
+303,efficientnetb0,block7a_bn/moving_variance:0,"(1152,)",block7a_project_bn/gamma:0,"(320,)",False,FAIL
+304,efficientnetb0,block7a_project_bn/gamma:0,"(320,)",block7a_project_bn/beta:0,"(320,)",True,PASS
+305,efficientnetb0,block7a_project_bn/beta:0,"(320,)",block7a_project_bn/moving_mean:0,"(320,)",True,PASS
+306,efficientnetb0,block7a_project_bn/moving_mean:0,"(320,)",block7a_project_bn/moving_variance:0,"(320,)",True,PASS
+307,efficientnetb0,block7a_project_bn/moving_variance:0,"(320,)",top_conv/kernel:0,"(1, 1, 320, 1280)",False,FAIL
+308,efficientnetb0,top_bn/gamma:0,"(1280,)",top_bn/gamma:0,"(1280,)",True,PASS
+309,efficientnetb0,top_bn/beta:0,"(1280,)",top_bn/beta:0,"(1280,)",True,PASS
+310,efficientnetb0,top_bn/moving_mean:0,"(1280,)",top_bn/moving_mean:0,"(1280,)",True,PASS
+311,efficientnetb0,top_bn/moving_variance:0,"(1280,)",top_bn/moving_variance:0,"(1280,)",True,PASS
+312,classifier_batchnorm,classifier_batchnorm/gamma:0,"(1280,)",classifier_batchnorm/gamma:0,"(1280,)",True,PASS
+313,classifier_batchnorm,classifier_batchnorm/beta:0,"(1280,)",classifier_batchnorm/beta:0,"(1280,)",True,PASS
+314,classifier_batchnorm,classifier_batchnorm/moving_mean:0,"(1280,)",classifier_batchnorm/moving_mean:0,"(1280,)",True,PASS
+315,classifier_batchnorm,classifier_batchnorm/moving_variance:0,"(1280,)",classifier_batchnorm/moving_variance:0,"(1280,)",True,PASS
+316,classifier_dense,classifier_dense/kernel:0,"(1280, 256)",classifier_dense/kernel:0,"(1280, 256)",True,PASS
+317,classifier_dense,classifier_dense/bias:0,"(256,)",classifier_dense/bias:0,"(256,)",True,PASS
+318,predictions,predictions/kernel:0,"(256, 4)",predictions/kernel:0,"(256, 4)",True,PASS
+319,predictions,predictions/bias:0,"(4,)",predictions/bias:0,"(4,)",True,PASS

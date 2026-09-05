@@ -1,0 +1,9 @@
+tumor_label,split,axial,coronal,sagittal
+glioma,test,85,81,88
+glioma,train,394,430,323
+meningioma,test,137,86,83
+meningioma,train,423,426,480
+no_tumor,test,52,48,40
+no_tumor,train,352,310,405
+pituitary,test,124,90,86
+pituitary,train,426,510,521

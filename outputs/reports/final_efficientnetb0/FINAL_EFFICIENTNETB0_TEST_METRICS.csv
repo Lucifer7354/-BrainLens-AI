@@ -1,0 +1,2 @@
+model,dataset,n_images,accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,macro_roc_auc_ovr
+EfficientNet-B0,BRISC2025 Official Test,1000,0.3,0.25,0.075,0.25,0.11538461538461538,0.09,0.3,0.13846153846153844,0.5217671974390854

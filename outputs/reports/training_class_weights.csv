@@ -1,0 +1,5 @@
+class,training_count,balanced_class_weight
+pituitary,1457,0.8579
+meningioma,1329,0.9406
+glioma,1147,1.0898
+no_tumor,1067,1.1715

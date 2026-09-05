@@ -1,0 +1,12 @@
+check,result
+Total processed images,PASS
+Train images,PASS
+Test images,PASS
+Class counts,PASS
+Missing processed files,PASS
+Image property errors,PASS
+Processing errors,PASS
+Directory structure,PASS
+PNG format,PASS
+RGB mode,PASS
+224x224x3 dimensions,PASS

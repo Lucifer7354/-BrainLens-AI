@@ -1,0 +1,40 @@
+{
+    "model": "DenseNet121",
+    "dataset": "BRISC2025",
+    "development_samples": 5000,
+    "official_test_samples": 1000,
+    "official_test_used": false,
+    "input_size": [
+        224,
+        224
+    ],
+    "channels": 3,
+    "num_classes": 4,
+    "class_names": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "class_to_index": {
+        "glioma": 0,
+        "meningioma": 1,
+        "no_tumor": 2,
+        "pituitary": 3
+    },
+    "initialization": "ImageNet",
+    "head_epochs": 10,
+    "fine_tune_epochs": 15,
+    "fine_tune_last_n_layers": 40,
+    "head_learning_rate": 0.001,
+    "fine_tune_learning_rate": 1e-05,
+    "batch_size": 32,
+    "class_weights_used": true,
+    "augmentation_used": false,
+    "keras_model": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\final_densenet121\\FINAL_DENSENET121_BRISC2025.keras",
+    "weights_file": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\final_densenet121\\FINAL_DENSENET121_BRISC2025.weights.h5",
+    "savedmodel_directory": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\final_densenet121\\FINAL_DENSENET121_BRISC2025_SavedModel",
+    "prediction_reload_difference": 0.0,
+    "status": "PASS",
+    "created_at": "2026-09-05T17:19:37.050436"
+}

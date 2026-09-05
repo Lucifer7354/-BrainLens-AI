@@ -1,0 +1,25 @@
+parameter,value
+model_name,Baseline_CNN
+input_width,224
+input_height,224
+input_channels,3
+num_classes,4
+class_names,"glioma, meningioma, no_tumor, pituitary"
+optimizer,Adam
+learning_rate,0.001
+loss,SparseCategoricalCrossentropy
+conv_block_1_filters,32
+conv_block_2_filters,64
+conv_block_3_filters,128
+conv_block_4_filters,256
+kernel_size,3x3
+pooling,MaxPooling2D 2x2
+conv_dropout,0.3
+dense_units,128
+classifier_dropout,0.4
+activation,ReLU
+output_activation,Softmax
+trainable_parameters,422788
+non_trainable_parameters,960
+total_parameters,423748
+seed,42

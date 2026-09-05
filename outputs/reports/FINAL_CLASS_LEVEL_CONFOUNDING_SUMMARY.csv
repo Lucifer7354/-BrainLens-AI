@@ -1,0 +1,5 @@
+tumor_label,total_images,grayscale_images,rgb_images,square_images,mean_width,mean_height,mean_aspect_ratio,median_aspect_ratio,non_square_images,grayscale_percentage,rgb_percentage,square_percentage,non_square_percentage
+glioma,1401,1227,174,1401,512.0,512.0,1.0,1.0,0,87.58,12.42,100.0,0.0
+meningioma,1635,709,926,1426,484.122,486.9,0.992,1.0,209,43.36,56.64,87.22,12.78
+pituitary,1757,930,827,1750,508.908,508.89,1.0,1.0,7,52.93,47.07,99.6,0.4
+no_tumor,1207,0,1207,764,358.254,410.737,0.858,1.0,443,0.0,100.0,63.3,36.7

@@ -1,0 +1,3 @@
+image_mode,images,mean_aspect_ratio,median_aspect_ratio,std_aspect_ratio,minimum_aspect_ratio,maximum_aspect_ratio,mean_width,mean_height
+Grayscale,2866,1.0,1.0,0.0,1.0,1.0,510.6602,510.6602
+RGB,3134,0.9412,1.0,0.147,0.5068,1.6103,437.7361,459.3874

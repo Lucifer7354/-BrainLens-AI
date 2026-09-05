@@ -1,0 +1,29 @@
+check,status,expected,actual
+Official test sample count,PASS,1000,1000
+Prediction count,PASS,1000,1000
+Probability matrix shape,PASS,"(1000, 4)","(1000, 4)"
+Finite prediction probabilities,PASS,All finite,True
+Probability lower bound,PASS,All >= 0,1.2066976950372572e-18
+Probability upper bound,PASS,All <= 1,1.0
+Probability rows sum to 1,PASS,All rows ≈ 1,1.1920928955078125e-07
+Correct prediction count,PASS,972,972
+Incorrect prediction count,PASS,28,28
+Accuracy consistency,PASS,0.972,0.972
+Confusion matrix total,PASS,1000,1000
+Confusion matrix correct total,PASS,972,972
+Confusion matrix error total,PASS,28,28
+Official test class supports,PASS,"[254, 306, 140, 300]","[254, 306, 140, 300]"
+Misclassification record count,PASS,28,28
+Per-class AUC count,PASS,4,4
+Macro AUC valid,PASS,0–1,0.9978843629634847
+Weighted AUC valid,PASS,0–1,0.997563213780757
+Final model exists,PASS,True,True
+Final model input shape,PASS,"(None, 224, 224, 3)","(None, 224, 224, 3)"
+Final model output shape,PASS,"(None, 4)","(None, 4)"
+Official test excluded from training,PASS,False,False
+Official test excluded from model selection,PASS,False,False
+Development/test filename overlap,PASS,0,0
+Test files present,PASS,1000,1000
+Test images readable,PASS,1000,1000
+Test images 224×224 RGB PNG,PASS,1000,1000
+Final result files,PASS,All required files exist,All present

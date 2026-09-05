@@ -1,0 +1,29 @@
+Model: "Final_DenseNet121_BRISC2025"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ mri_input (InputLayer)      [(None, 224, 224, 3)]     0         
+                                                                 
+ densenet121 (Functional)    (None, 7, 7, 1024)        7037504   
+                                                                 
+ global_average_pooling (Glo  (None, 1024)             0         
+ balAveragePooling2D)                                            
+                                                                 
+ classifier_batch_normalizat  (None, 1024)             4096      
+ ion (BatchNormalization)                                        
+                                                                 
+ classifier_dropout (Dropout  (None, 1024)             0         
+ )                                                               
+                                                                 
+ classifier_dense (Dense)    (None, 256)               262400    
+                                                                 
+ classifier_dropout_2 (Dropo  (None, 256)              0         
+ ut)                                                             
+                                                                 
+ predictions (Dense)         (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 7,305,028
+Trainable params: 265,476
+Non-trainable params: 7,039,552
+_________________________________________________________________

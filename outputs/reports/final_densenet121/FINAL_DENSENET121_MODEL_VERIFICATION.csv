@@ -1,0 +1,2 @@
+model,dataset,development_samples,official_test_samples,official_test_used,initialization,final_training_stages,keras_model_exists,weights_exists,savedmodel_exists,prediction_shape_verified,probability_output_verified,keras_reload_verified,prediction_reload_difference,status
+DenseNet121,BRISC2025,5000,1000,False,ImageNet,head_training + fine_tuning,True,True,True,True,True,True,0.0,PASS

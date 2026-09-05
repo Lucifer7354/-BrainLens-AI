@@ -1,0 +1,23 @@
+{
+    "dataset": "BRISC2025",
+    "official_test_images": 1000,
+    "segmentation_mask_matched_images": 860,
+    "selected_visualization_cases": 9,
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "ground_truth_box_source": "BRISC2025 segmentation masks",
+    "bounding_box_definition": "Minimum axis-aligned rectangle enclosing all non-zero segmentation-mask pixels",
+    "gradcam_source": "Previously generated Grad-CAM visualizations",
+    "full_test_gradcam_computation": false,
+    "reason": "Full-test Grad-CAM caused GPU memory exhaustion on the RTX 3050 4-GB GPU.",
+    "fabricated_boxes": false,
+    "clinical_localization_claim": false,
+    "interpretation": "Bounding boxes represent ground-truth segmentation-derived tumor regions; Grad-CAM represents model attention and is not treated as segmentation ground truth.",
+    "figure_dpi": 300,
+    "random_seed": 42,
+    "status": "PASS"
+}

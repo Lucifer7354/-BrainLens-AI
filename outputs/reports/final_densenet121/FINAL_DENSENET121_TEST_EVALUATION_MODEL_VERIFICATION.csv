@@ -1,0 +1,2 @@
+model,model_file,model_exists,model_size_mb,input_shape,output_shape,total_parameters,input_shape_status,output_shape_status,softmax_probability_status,metadata_available,official_test_used_for_training,official_test_used_for_model_selection,training_performed_in_this_cell,model_loading_status
+DenseNet121,D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\models\final_densenet121\FINAL_DENSENET121_BRISC2025.keras,True,36.835,"(None, 224, 224, 3)","(None, 4)",7305028,PASS,PASS,PASS,True,False,False,False,PASS

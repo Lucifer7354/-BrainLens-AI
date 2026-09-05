@@ -1,0 +1,7 @@
+true_class,predicted_class,error_count,percentage_of_all_errors
+glioma,meningioma,22,40.0
+meningioma,glioma,12,21.818181818181817
+meningioma,no_tumor,9,16.363636363636363
+meningioma,pituitary,6,10.909090909090908
+glioma,pituitary,4,7.2727272727272725
+pituitary,meningioma,2,3.6363636363636362

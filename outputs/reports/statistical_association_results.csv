@@ -1,0 +1,4 @@
+analysis,test,test_statistic,degrees_of_freedom,p_value,effect_size,effect_size_measure
+Image mode vs tumor class,Chi-square test of independence,2025.34999,3.0,0.0,0.580998,Cramer's V
+MRI plane vs tumor class,Chi-square test of independence,26.308353,6.0,0.0001950362,0.046823,Cramer's V
+Mean intensity vs tumor class,Kruskal-Wallis H test,260.35809,,0.0,0.323314,Epsilon-squared

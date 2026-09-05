@@ -1,0 +1,5 @@
+class,class_index,training_count,validation_count,official_test_count
+glioma,0,918,229,254
+meningioma,1,1063,266,306
+no_tumor,2,854,213,140
+pituitary,3,1165,292,300

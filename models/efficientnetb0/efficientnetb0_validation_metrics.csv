@@ -1,0 +1,2 @@
+model,dataset,n_samples,accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,best_epoch,best_train_loss,best_train_accuracy,best_validation_loss,best_validation_accuracy,total_parameters,batch_size,official_test_used_for_training,official_test_used_for_selection,official_test_evaluated,model_artifact,savedmodel_verified
+EfficientNet-B0,validation,1000,0.965,0.9638498522558876,0.966873905401898,0.9638498522558876,0.9648849551536026,,,,,,4383655,32,False,False,False,TensorFlow SavedModel + H5 best weights,True

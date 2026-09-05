@@ -1,0 +1,2 @@
+model,test_samples,test_loss,test_accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,official_test_used_for_training,official_test_used_for_model_selection,seed
+Baseline_CNN,1000,0.132219597697258,0.945,0.9506839586228192,0.9444804655441575,0.9506839586228192,0.9471135925237543,0.9448657406584379,0.945,0.9445550084747172,False,False,42

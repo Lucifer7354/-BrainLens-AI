@@ -1,0 +1,3 @@
+mapping,class_order,accuracy,balanced_accuracy,macro_f1
+original,"glioma, meningioma, pituitary, no_tumor",0.3,0.25,0.11538461538461538
+swap_output_2_and_3,"glioma, meningioma, no_tumor, pituitary",0.14,0.25,0.06140350877192982

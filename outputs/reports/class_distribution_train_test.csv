@@ -1,0 +1,5 @@
+class,train_count,test_count,train_percentage,test_percentage
+pituitary,1457,300,29.14,30.0
+meningioma,1329,306,26.58,30.6
+glioma,1147,254,22.94,25.4
+no_tumor,1067,140,21.34,14.0

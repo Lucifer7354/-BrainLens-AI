@@ -1,0 +1,17 @@
+check,status
+Required source manifest columns,PASS
+Processed manifest key uniqueness,PASS
+Source manifest key uniqueness,PASS
+Processed-to-source matching,PASS
+Total record count,PASS
+Training record count,PASS
+Test record count,PASS
+Training class distribution,PASS
+Test class distribution,PASS
+Total class distribution,PASS
+Source-path leakage,PASS
+Processed-path leakage,PASS
+Processed files exist,PASS
+Filename separation,PASS
+Duplicate label consistency,PASS
+Known duplicate audit,PASS

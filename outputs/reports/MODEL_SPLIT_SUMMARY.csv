@@ -1,0 +1,4 @@
+model_split,sample_count,glioma_count,meningioma_count,no_tumor_count,pituitary_count
+train,4000,918,1063,854,1165
+validation,1000,229,266,213,292
+official_test,1000,254,306,140,300

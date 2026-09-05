@@ -1,0 +1,17 @@
+{
+    "dataset": "BRISC2025",
+    "official_test_images": 1000,
+    "segmentation_matched_images": 860,
+    "target_model_input": "224x224x3",
+    "bounding_box_source": "Ground-truth segmentation masks",
+    "coordinate_system": "224x224 processed model-input space",
+    "mask_resize_method": "Aspect-ratio preserving resize",
+    "mask_interpolation": "Nearest-neighbor",
+    "padding_method": "Symmetric black padding",
+    "bounding_box_definition": "Minimum axis-aligned rectangle enclosing all non-zero pixels after transformation to 224x224 model space",
+    "gradcam_used": false,
+    "fabricated_boxes": false,
+    "model_modified": false,
+    "official_test_modified": false,
+    "status": "PASS"
+}

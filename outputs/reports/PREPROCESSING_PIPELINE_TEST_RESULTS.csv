@@ -1,0 +1,5 @@
+filename,tumor_label,plane_label,original_width,original_height,resized_width,resized_height,processed_width,processed_height,processed_channels,minimum_value,maximum_value,dtype
+brisc2025_test_00001_gl_ax_t1.jpg,glioma,axial,512,512,224,224,224,224,3,0.0,0.9686274528503418,float32
+brisc2025_test_00255_me_ax_t1.jpg,meningioma,axial,257,307,188,224,224,224,3,0.0,1.0,float32
+brisc2025_test_00561_no_ax_t1.jpg,no_tumor,axial,216,369,131,224,224,224,3,0.0,0.9333333373069763,float32
+brisc2025_test_00701_pi_ax_t1.jpg,pituitary,axial,512,512,224,224,224,224,3,0.0,0.9411764740943909,float32

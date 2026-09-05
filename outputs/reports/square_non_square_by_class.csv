@@ -1,0 +1,5 @@
+tumor_label,False,True
+glioma,0,1401
+meningioma,209,1426
+no_tumor,443,764
+pituitary,7,1750

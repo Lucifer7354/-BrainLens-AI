@@ -1,0 +1,10 @@
+metric,value
+batch_size,32
+image_width,224
+image_height,224
+channels,3
+dtype,float32
+minimum_pixel_value,0.0
+maximum_pixel_value,1.0
+unique_labels,"glioma, meningioma, no_tumor, pituitary"
+image_content_valid,True

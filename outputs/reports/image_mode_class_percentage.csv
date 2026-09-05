@@ -1,0 +1,5 @@
+class,Grayscale,RGB
+glioma,87.58,12.42
+meningioma,43.36,56.64
+pituitary,52.93,47.07
+no_tumor,0.0,100.0

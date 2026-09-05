@@ -1,0 +1,5 @@
+class,train_count,test_count,total_count,expected_train,expected_test,expected_total
+glioma,1147,254,1401,1147,254,1401
+meningioma,1329,306,1635,1329,306,1635
+no_tumor,1067,140,1207,1067,140,1207
+pituitary,1457,300,1757,1457,300,1757

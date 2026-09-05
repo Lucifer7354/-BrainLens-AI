@@ -1,0 +1,8 @@
+true_class_index,true_class,predicted_class_index,predicted_class,error_count,percentage_of_true_class
+0,glioma,1,meningioma,15,5.905511811023622
+1,meningioma,3,pituitary,5,1.6339869281045754
+1,meningioma,0,glioma,4,1.3071895424836601
+0,glioma,3,pituitary,1,0.39370078740157477
+1,meningioma,2,no_tumor,1,0.32679738562091504
+3,pituitary,0,glioma,1,0.33333333333333337
+3,pituitary,1,meningioma,1,0.33333333333333337

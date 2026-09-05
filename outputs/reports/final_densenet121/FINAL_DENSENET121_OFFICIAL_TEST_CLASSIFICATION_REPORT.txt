@@ -1,0 +1,25 @@
+BRISC2025 OFFICIAL TEST — FINAL DENSENET121
+======================================================================
+
+Test samples: 1000
+Accuracy: 0.972000
+Balanced Accuracy: 0.974415
+Macro Precision: 0.975328
+Macro Recall: 0.974415
+Macro F1: 0.974718
+Weighted Precision: 0.972167
+Weighted Recall: 0.972000
+Weighted F1: 0.971922
+
+CLASSIFICATION REPORT
+----------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+      glioma   0.979424  0.937008  0.957746       254
+  meningioma   0.948718  0.967320  0.957929       306
+    no_tumor   0.992908  1.000000  0.996441       140
+   pituitary   0.980263  0.993333  0.986755       300
+
+    accuracy                       0.972000      1000
+   macro avg   0.975328  0.974415  0.974718      1000
+weighted avg   0.972167  0.972000  0.971922      1000

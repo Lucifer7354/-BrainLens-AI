@@ -1,0 +1,2 @@
+model,input_height,input_width,input_channels,num_classes,total_parameters,trainable_parameters_head_stage,non_trainable_parameters_head_stage,backbone_trainable,imagenet_initialization,official_test_used,status
+DenseNet121,224,224,3,4,7305028,265476,7039552,False,True,False,PASS

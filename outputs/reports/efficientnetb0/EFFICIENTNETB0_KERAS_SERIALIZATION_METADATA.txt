@@ -1,0 +1,331 @@
+EFFICIENTNET-B0 KERAS H5 SERIALIZATION METADATA
+====================================================================================================
+H5 file: D:\MSC Bioinformatics\INTERNSHIP\BrainTumor\models\efficientnetb0\efficientnetb0_best_weights.h5
+Metadata records: 320
+
+STATUS COUNTS
+----------------------------------------------------------------------------------------------------
+FOUND: 320
+
+SERIALIZED WEIGHT ORDER
+----------------------------------------------------------------------------------------------------
+layer=1 | layer_name=efficientnetb0 | weight=0 | name=block6c_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=1 | name=block6c_se_reduce/bias:0 | shape=(48,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=2 | name=block6c_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=3 | name=block6c_se_expand/bias:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=4 | name=block6c_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=5 | name=block6d_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=6 | name=block6d_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=7 | name=block6d_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=8 | name=block6d_se_reduce/bias:0 | shape=(48,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=9 | name=block6d_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=10 | name=block6d_se_expand/bias:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=11 | name=block6d_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=12 | name=block7a_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=13 | name=block7a_dwconv/depthwise_kernel:0 | shape=(3, 3, 1152, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=14 | name=block7a_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=15 | name=block7a_se_reduce/bias:0 | shape=(48,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=16 | name=block7a_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=17 | name=block7a_se_expand/bias:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=18 | name=block7a_project_conv/kernel:0 | shape=(1, 1, 1152, 320) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=19 | name=top_conv/kernel:0 | shape=(1, 1, 320, 1280) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=20 | name=normalization_1/mean:0 | shape=(3,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=21 | name=normalization_1/variance:0 | shape=(3,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=22 | name=normalization_1/count:0 | shape=() | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=23 | name=stem_conv/kernel:0 | shape=(3, 3, 3, 32) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=24 | name=stem_bn/gamma:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=25 | name=stem_bn/beta:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=26 | name=stem_bn/moving_mean:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=27 | name=stem_bn/moving_variance:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=28 | name=block1a_dwconv/depthwise_kernel:0 | shape=(3, 3, 32, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=29 | name=block1a_bn/gamma:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=30 | name=block1a_bn/beta:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=31 | name=block1a_bn/moving_mean:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=32 | name=block1a_bn/moving_variance:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=33 | name=block1a_se_reduce/kernel:0 | shape=(1, 1, 32, 8) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=34 | name=block1a_se_reduce/bias:0 | shape=(8,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=35 | name=block1a_se_expand/kernel:0 | shape=(1, 1, 8, 32) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=36 | name=block1a_se_expand/bias:0 | shape=(32,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=37 | name=block1a_project_conv/kernel:0 | shape=(1, 1, 32, 16) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=38 | name=block1a_project_bn/gamma:0 | shape=(16,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=39 | name=block1a_project_bn/beta:0 | shape=(16,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=40 | name=block1a_project_bn/moving_mean:0 | shape=(16,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=41 | name=block1a_project_bn/moving_variance:0 | shape=(16,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=42 | name=block2a_expand_conv/kernel:0 | shape=(1, 1, 16, 96) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=43 | name=block2a_expand_bn/gamma:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=44 | name=block2a_expand_bn/beta:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=45 | name=block2a_expand_bn/moving_mean:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=46 | name=block2a_expand_bn/moving_variance:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=47 | name=block2a_dwconv/depthwise_kernel:0 | shape=(3, 3, 96, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=48 | name=block2a_bn/gamma:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=49 | name=block2a_bn/beta:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=50 | name=block2a_bn/moving_mean:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=51 | name=block2a_bn/moving_variance:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=52 | name=block2a_se_reduce/kernel:0 | shape=(1, 1, 96, 4) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=53 | name=block2a_se_reduce/bias:0 | shape=(4,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=54 | name=block2a_se_expand/kernel:0 | shape=(1, 1, 4, 96) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=55 | name=block2a_se_expand/bias:0 | shape=(96,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=56 | name=block2a_project_conv/kernel:0 | shape=(1, 1, 96, 24) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=57 | name=block2a_project_bn/gamma:0 | shape=(24,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=58 | name=block2a_project_bn/beta:0 | shape=(24,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=59 | name=block2a_project_bn/moving_mean:0 | shape=(24,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=60 | name=block2a_project_bn/moving_variance:0 | shape=(24,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=61 | name=block2b_expand_conv/kernel:0 | shape=(1, 1, 24, 144) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=62 | name=block2b_expand_bn/gamma:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=63 | name=block2b_expand_bn/beta:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=64 | name=block2b_expand_bn/moving_mean:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=65 | name=block2b_expand_bn/moving_variance:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=66 | name=block2b_dwconv/depthwise_kernel:0 | shape=(3, 3, 144, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=67 | name=block2b_bn/gamma:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=68 | name=block2b_bn/beta:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=69 | name=block2b_bn/moving_mean:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=70 | name=block2b_bn/moving_variance:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=71 | name=block2b_se_reduce/kernel:0 | shape=(1, 1, 144, 6) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=72 | name=block2b_se_reduce/bias:0 | shape=(6,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=73 | name=block2b_se_expand/kernel:0 | shape=(1, 1, 6, 144) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=74 | name=block2b_se_expand/bias:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=75 | name=block2b_project_conv/kernel:0 | shape=(1, 1, 144, 24) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=76 | name=block2b_project_bn/gamma:0 | shape=(24,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=77 | name=block2b_project_bn/beta:0 | shape=(24,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=78 | name=block2b_project_bn/moving_mean:0 | shape=(24,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=79 | name=block2b_project_bn/moving_variance:0 | shape=(24,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=80 | name=block3a_expand_conv/kernel:0 | shape=(1, 1, 24, 144) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=81 | name=block3a_expand_bn/gamma:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=82 | name=block3a_expand_bn/beta:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=83 | name=block3a_expand_bn/moving_mean:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=84 | name=block3a_expand_bn/moving_variance:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=85 | name=block3a_dwconv/depthwise_kernel:0 | shape=(5, 5, 144, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=86 | name=block3a_bn/gamma:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=87 | name=block3a_bn/beta:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=88 | name=block3a_bn/moving_mean:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=89 | name=block3a_bn/moving_variance:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=90 | name=block3a_se_reduce/kernel:0 | shape=(1, 1, 144, 6) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=91 | name=block3a_se_reduce/bias:0 | shape=(6,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=92 | name=block3a_se_expand/kernel:0 | shape=(1, 1, 6, 144) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=93 | name=block3a_se_expand/bias:0 | shape=(144,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=94 | name=block3a_project_conv/kernel:0 | shape=(1, 1, 144, 40) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=95 | name=block3a_project_bn/gamma:0 | shape=(40,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=96 | name=block3a_project_bn/beta:0 | shape=(40,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=97 | name=block3a_project_bn/moving_mean:0 | shape=(40,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=98 | name=block3a_project_bn/moving_variance:0 | shape=(40,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=99 | name=block3b_expand_conv/kernel:0 | shape=(1, 1, 40, 240) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=100 | name=block3b_expand_bn/gamma:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=101 | name=block3b_expand_bn/beta:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=102 | name=block3b_expand_bn/moving_mean:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=103 | name=block3b_expand_bn/moving_variance:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=104 | name=block3b_dwconv/depthwise_kernel:0 | shape=(5, 5, 240, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=105 | name=block3b_bn/gamma:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=106 | name=block3b_bn/beta:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=107 | name=block3b_bn/moving_mean:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=108 | name=block3b_bn/moving_variance:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=109 | name=block3b_se_reduce/kernel:0 | shape=(1, 1, 240, 10) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=110 | name=block3b_se_reduce/bias:0 | shape=(10,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=111 | name=block3b_se_expand/kernel:0 | shape=(1, 1, 10, 240) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=112 | name=block3b_se_expand/bias:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=113 | name=block3b_project_conv/kernel:0 | shape=(1, 1, 240, 40) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=114 | name=block3b_project_bn/gamma:0 | shape=(40,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=115 | name=block3b_project_bn/beta:0 | shape=(40,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=116 | name=block3b_project_bn/moving_mean:0 | shape=(40,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=117 | name=block3b_project_bn/moving_variance:0 | shape=(40,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=118 | name=block4a_expand_conv/kernel:0 | shape=(1, 1, 40, 240) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=119 | name=block4a_expand_bn/gamma:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=120 | name=block4a_expand_bn/beta:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=121 | name=block4a_expand_bn/moving_mean:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=122 | name=block4a_expand_bn/moving_variance:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=123 | name=block4a_dwconv/depthwise_kernel:0 | shape=(3, 3, 240, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=124 | name=block4a_bn/gamma:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=125 | name=block4a_bn/beta:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=126 | name=block4a_bn/moving_mean:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=127 | name=block4a_bn/moving_variance:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=128 | name=block4a_se_reduce/kernel:0 | shape=(1, 1, 240, 10) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=129 | name=block4a_se_reduce/bias:0 | shape=(10,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=130 | name=block4a_se_expand/kernel:0 | shape=(1, 1, 10, 240) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=131 | name=block4a_se_expand/bias:0 | shape=(240,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=132 | name=block4a_project_conv/kernel:0 | shape=(1, 1, 240, 80) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=133 | name=block4a_project_bn/gamma:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=134 | name=block4a_project_bn/beta:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=135 | name=block4a_project_bn/moving_mean:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=136 | name=block4a_project_bn/moving_variance:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=137 | name=block4b_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=138 | name=block4b_expand_bn/gamma:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=139 | name=block4b_expand_bn/beta:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=140 | name=block4b_expand_bn/moving_mean:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=141 | name=block4b_expand_bn/moving_variance:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=142 | name=block4b_dwconv/depthwise_kernel:0 | shape=(3, 3, 480, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=143 | name=block4b_bn/gamma:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=144 | name=block4b_bn/beta:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=145 | name=block4b_bn/moving_mean:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=146 | name=block4b_bn/moving_variance:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=147 | name=block4b_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=148 | name=block4b_se_reduce/bias:0 | shape=(20,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=149 | name=block4b_se_expand/kernel:0 | shape=(1, 1, 20, 480) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=150 | name=block4b_se_expand/bias:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=151 | name=block4b_project_conv/kernel:0 | shape=(1, 1, 480, 80) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=152 | name=block4b_project_bn/gamma:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=153 | name=block4b_project_bn/beta:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=154 | name=block4b_project_bn/moving_mean:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=155 | name=block4b_project_bn/moving_variance:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=156 | name=block4c_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=157 | name=block4c_expand_bn/gamma:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=158 | name=block4c_expand_bn/beta:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=159 | name=block4c_expand_bn/moving_mean:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=160 | name=block4c_expand_bn/moving_variance:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=161 | name=block4c_dwconv/depthwise_kernel:0 | shape=(3, 3, 480, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=162 | name=block4c_bn/gamma:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=163 | name=block4c_bn/beta:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=164 | name=block4c_bn/moving_mean:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=165 | name=block4c_bn/moving_variance:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=166 | name=block4c_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=167 | name=block4c_se_reduce/bias:0 | shape=(20,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=168 | name=block4c_se_expand/kernel:0 | shape=(1, 1, 20, 480) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=169 | name=block4c_se_expand/bias:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=170 | name=block4c_project_conv/kernel:0 | shape=(1, 1, 480, 80) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=171 | name=block4c_project_bn/gamma:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=172 | name=block4c_project_bn/beta:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=173 | name=block4c_project_bn/moving_mean:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=174 | name=block4c_project_bn/moving_variance:0 | shape=(80,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=175 | name=block5a_expand_conv/kernel:0 | shape=(1, 1, 80, 480) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=176 | name=block5a_expand_bn/gamma:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=177 | name=block5a_expand_bn/beta:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=178 | name=block5a_expand_bn/moving_mean:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=179 | name=block5a_expand_bn/moving_variance:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=180 | name=block5a_dwconv/depthwise_kernel:0 | shape=(5, 5, 480, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=181 | name=block5a_bn/gamma:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=182 | name=block5a_bn/beta:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=183 | name=block5a_bn/moving_mean:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=184 | name=block5a_bn/moving_variance:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=185 | name=block5a_se_reduce/kernel:0 | shape=(1, 1, 480, 20) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=186 | name=block5a_se_reduce/bias:0 | shape=(20,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=187 | name=block5a_se_expand/kernel:0 | shape=(1, 1, 20, 480) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=188 | name=block5a_se_expand/bias:0 | shape=(480,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=189 | name=block5a_project_conv/kernel:0 | shape=(1, 1, 480, 112) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=190 | name=block5a_project_bn/gamma:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=191 | name=block5a_project_bn/beta:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=192 | name=block5a_project_bn/moving_mean:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=193 | name=block5a_project_bn/moving_variance:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=194 | name=block5b_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=195 | name=block5b_expand_bn/gamma:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=196 | name=block5b_expand_bn/beta:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=197 | name=block5b_expand_bn/moving_mean:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=198 | name=block5b_expand_bn/moving_variance:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=199 | name=block5b_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=200 | name=block5b_bn/gamma:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=201 | name=block5b_bn/beta:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=202 | name=block5b_bn/moving_mean:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=203 | name=block5b_bn/moving_variance:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=204 | name=block5b_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=205 | name=block5b_se_reduce/bias:0 | shape=(28,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=206 | name=block5b_se_expand/kernel:0 | shape=(1, 1, 28, 672) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=207 | name=block5b_se_expand/bias:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=208 | name=block5b_project_conv/kernel:0 | shape=(1, 1, 672, 112) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=209 | name=block5b_project_bn/gamma:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=210 | name=block5b_project_bn/beta:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=211 | name=block5b_project_bn/moving_mean:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=212 | name=block5b_project_bn/moving_variance:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=213 | name=block5c_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=214 | name=block5c_expand_bn/gamma:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=215 | name=block5c_expand_bn/beta:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=216 | name=block5c_expand_bn/moving_mean:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=217 | name=block5c_expand_bn/moving_variance:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=218 | name=block5c_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=219 | name=block5c_bn/gamma:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=220 | name=block5c_bn/beta:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=221 | name=block5c_bn/moving_mean:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=222 | name=block5c_bn/moving_variance:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=223 | name=block5c_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=224 | name=block5c_se_reduce/bias:0 | shape=(28,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=225 | name=block5c_se_expand/kernel:0 | shape=(1, 1, 28, 672) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=226 | name=block5c_se_expand/bias:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=227 | name=block5c_project_conv/kernel:0 | shape=(1, 1, 672, 112) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=228 | name=block5c_project_bn/gamma:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=229 | name=block5c_project_bn/beta:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=230 | name=block5c_project_bn/moving_mean:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=231 | name=block5c_project_bn/moving_variance:0 | shape=(112,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=232 | name=block6a_expand_conv/kernel:0 | shape=(1, 1, 112, 672) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=233 | name=block6a_expand_bn/gamma:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=234 | name=block6a_expand_bn/beta:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=235 | name=block6a_expand_bn/moving_mean:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=236 | name=block6a_expand_bn/moving_variance:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=237 | name=block6a_dwconv/depthwise_kernel:0 | shape=(5, 5, 672, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=238 | name=block6a_bn/gamma:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=239 | name=block6a_bn/beta:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=240 | name=block6a_bn/moving_mean:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=241 | name=block6a_bn/moving_variance:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=242 | name=block6a_se_reduce/kernel:0 | shape=(1, 1, 672, 28) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=243 | name=block6a_se_reduce/bias:0 | shape=(28,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=244 | name=block6a_se_expand/kernel:0 | shape=(1, 1, 28, 672) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=245 | name=block6a_se_expand/bias:0 | shape=(672,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=246 | name=block6a_project_conv/kernel:0 | shape=(1, 1, 672, 192) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=247 | name=block6a_project_bn/gamma:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=248 | name=block6a_project_bn/beta:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=249 | name=block6a_project_bn/moving_mean:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=250 | name=block6a_project_bn/moving_variance:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=251 | name=block6b_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=252 | name=block6b_expand_bn/gamma:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=253 | name=block6b_expand_bn/beta:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=254 | name=block6b_expand_bn/moving_mean:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=255 | name=block6b_expand_bn/moving_variance:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=256 | name=block6b_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=257 | name=block6b_bn/gamma:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=258 | name=block6b_bn/beta:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=259 | name=block6b_bn/moving_mean:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=260 | name=block6b_bn/moving_variance:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=261 | name=block6b_se_reduce/kernel:0 | shape=(1, 1, 1152, 48) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=262 | name=block6b_se_reduce/bias:0 | shape=(48,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=263 | name=block6b_se_expand/kernel:0 | shape=(1, 1, 48, 1152) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=264 | name=block6b_se_expand/bias:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=265 | name=block6b_project_conv/kernel:0 | shape=(1, 1, 1152, 192) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=266 | name=block6b_project_bn/gamma:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=267 | name=block6b_project_bn/beta:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=268 | name=block6b_project_bn/moving_mean:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=269 | name=block6b_project_bn/moving_variance:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=270 | name=block6c_expand_conv/kernel:0 | shape=(1, 1, 192, 1152) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=271 | name=block6c_expand_bn/gamma:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=272 | name=block6c_expand_bn/beta:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=273 | name=block6c_expand_bn/moving_mean:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=274 | name=block6c_expand_bn/moving_variance:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=275 | name=block6c_dwconv/depthwise_kernel:0 | shape=(5, 5, 1152, 1) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=276 | name=block6c_bn/gamma:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=277 | name=block6c_bn/beta:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=278 | name=block6c_bn/moving_mean:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=279 | name=block6c_bn/moving_variance:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=280 | name=block6c_project_bn/gamma:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=281 | name=block6c_project_bn/beta:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=282 | name=block6c_project_bn/moving_mean:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=283 | name=block6c_project_bn/moving_variance:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=284 | name=block6d_expand_bn/gamma:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=285 | name=block6d_expand_bn/beta:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=286 | name=block6d_expand_bn/moving_mean:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=287 | name=block6d_expand_bn/moving_variance:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=288 | name=block6d_bn/gamma:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=289 | name=block6d_bn/beta:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=290 | name=block6d_bn/moving_mean:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=291 | name=block6d_bn/moving_variance:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=292 | name=block6d_project_bn/gamma:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=293 | name=block6d_project_bn/beta:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=294 | name=block6d_project_bn/moving_mean:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=295 | name=block6d_project_bn/moving_variance:0 | shape=(192,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=296 | name=block7a_expand_bn/gamma:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=297 | name=block7a_expand_bn/beta:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=298 | name=block7a_expand_bn/moving_mean:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=299 | name=block7a_expand_bn/moving_variance:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=300 | name=block7a_bn/gamma:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=301 | name=block7a_bn/beta:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=302 | name=block7a_bn/moving_mean:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=303 | name=block7a_bn/moving_variance:0 | shape=(1152,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=304 | name=block7a_project_bn/gamma:0 | shape=(320,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=305 | name=block7a_project_bn/beta:0 | shape=(320,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=306 | name=block7a_project_bn/moving_mean:0 | shape=(320,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=307 | name=block7a_project_bn/moving_variance:0 | shape=(320,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=308 | name=top_bn/gamma:0 | shape=(1280,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=309 | name=top_bn/beta:0 | shape=(1280,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=310 | name=top_bn/moving_mean:0 | shape=(1280,) | status=FOUND
+layer=1 | layer_name=efficientnetb0 | weight=311 | name=top_bn/moving_variance:0 | shape=(1280,) | status=FOUND
+layer=3 | layer_name=classifier_batchnorm | weight=0 | name=classifier_batchnorm/gamma:0 | shape=(1280,) | status=FOUND
+layer=3 | layer_name=classifier_batchnorm | weight=1 | name=classifier_batchnorm/beta:0 | shape=(1280,) | status=FOUND
+layer=3 | layer_name=classifier_batchnorm | weight=2 | name=classifier_batchnorm/moving_mean:0 | shape=(1280,) | status=FOUND
+layer=3 | layer_name=classifier_batchnorm | weight=3 | name=classifier_batchnorm/moving_variance:0 | shape=(1280,) | status=FOUND
+layer=4 | layer_name=classifier_dense | weight=0 | name=classifier_dense/kernel:0 | shape=(1280, 256) | status=FOUND
+layer=4 | layer_name=classifier_dense | weight=1 | name=classifier_dense/bias:0 | shape=(256,) | status=FOUND
+layer=6 | layer_name=predictions | weight=0 | name=predictions/kernel:0 | shape=(256, 4) | status=FOUND
+layer=6 | layer_name=predictions | weight=1 | name=predictions/bias:0 | shape=(4,) | status=FOUND

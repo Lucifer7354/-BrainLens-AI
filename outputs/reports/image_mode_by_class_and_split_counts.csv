@@ -1,0 +1,9 @@
+tumor_label,split,Grayscale,RGB
+glioma,train,1038,109
+glioma,test,189,65
+meningioma,train,549,780
+meningioma,test,160,146
+pituitary,train,697,760
+pituitary,test,233,67
+no_tumor,train,0,1067
+no_tumor,test,0,140

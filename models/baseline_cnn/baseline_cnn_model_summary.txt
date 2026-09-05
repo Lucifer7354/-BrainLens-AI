@@ -1,0 +1,46 @@
+Model: "Baseline_CNN"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1 (Conv2D)              (None, 224, 224, 32)      896       
+                                                                 
+ bn1 (BatchNormalization)    (None, 224, 224, 32)      128       
+                                                                 
+ pool1 (MaxPooling2D)        (None, 112, 112, 32)      0         
+                                                                 
+ conv2 (Conv2D)              (None, 112, 112, 64)      18496     
+                                                                 
+ bn2 (BatchNormalization)    (None, 112, 112, 64)      256       
+                                                                 
+ pool2 (MaxPooling2D)        (None, 56, 56, 64)        0         
+                                                                 
+ conv3 (Conv2D)              (None, 56, 56, 128)       73856     
+                                                                 
+ bn3 (BatchNormalization)    (None, 56, 56, 128)       512       
+                                                                 
+ pool3 (MaxPooling2D)        (None, 28, 28, 128)       0         
+                                                                 
+ conv4 (Conv2D)              (None, 28, 28, 256)       295168    
+                                                                 
+ bn4 (BatchNormalization)    (None, 28, 28, 256)       1024      
+                                                                 
+ pool4 (MaxPooling2D)        (None, 14, 14, 256)       0         
+                                                                 
+ dropout_conv (Dropout)      (None, 14, 14, 256)       0         
+                                                                 
+ global_average_pooling (Glo  (None, 256)              0         
+ balAveragePooling2D)                                            
+                                                                 
+ dense_features (Dense)      (None, 128)               32896     
+                                                                 
+ dropout_classifier (Dropout  (None, 128)              0         
+ )                                                               
+                                                                 
+ classification_output (Dens  (None, 4)                516       
+ e)                                                              
+                                                                 
+=================================================================
+Total params: 423,748
+Trainable params: 422,788
+Non-trainable params: 960
+_________________________________________________________________

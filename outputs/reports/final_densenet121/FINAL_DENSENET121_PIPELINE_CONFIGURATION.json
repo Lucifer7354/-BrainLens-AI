@@ -1,0 +1,30 @@
+{
+    "dataset": "BRISC2025 classification",
+    "development_samples": 5000,
+    "original_train_samples": 4000,
+    "original_validation_samples": 1000,
+    "official_test_samples": 1000,
+    "official_test_used": false,
+    "image_size": [
+        224,
+        224
+    ],
+    "channels": 3,
+    "normalization": "[0, 1]",
+    "batch_size": 32,
+    "shuffle": true,
+    "seed": 42,
+    "augmentation": false,
+    "class_names": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "class_to_index": {
+        "glioma": 0,
+        "meningioma": 1,
+        "no_tumor": 2,
+        "pituitary": 3
+    }
+}

@@ -1,0 +1,3 @@
+image_mode,images,mean_width,median_width,mean_height,median_height,mean_aspect_ratio,median_aspect_ratio,square_images,non_square_images,square_percentage,non_square_percentage
+Grayscale,2866,510.66,512.0,510.66,512.0,1.0,1.0,2866,0,100.0,0.0
+RGB,3134,437.736,512.0,459.387,512.0,0.941,1.0,2475,659,78.97,21.03

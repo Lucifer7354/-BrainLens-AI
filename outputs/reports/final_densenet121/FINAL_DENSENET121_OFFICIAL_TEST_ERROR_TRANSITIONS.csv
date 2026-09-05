@@ -1,0 +1,8 @@
+true_class,predicted_class,error_count
+glioma,meningioma,15
+meningioma,pituitary,5
+meningioma,glioma,4
+glioma,pituitary,1
+meningioma,no_tumor,1
+pituitary,glioma,1
+pituitary,meningioma,1

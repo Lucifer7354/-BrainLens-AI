@@ -1,0 +1,22 @@
+{
+    "model": "DenseNet121",
+    "model_path": "D:\\MSC Bioinformatics\\INTERNSHIP\\BrainTumor\\models\\final_densenet121\\FINAL_DENSENET121_BRISC2025.keras",
+    "input_size": [
+        224,
+        224
+    ],
+    "channels": 3,
+    "class_names": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "gradcam_layer": "conv5_block16_2_conv",
+    "gradcam_layer_output": "(None, 7, 7, 32)",
+    "total_parameters": 7305028,
+    "conv2d_layer_count": 120,
+    "tensorflow_version": "2.10.0",
+    "numpy_version": "1.23.5",
+    "random_seed": 42
+}

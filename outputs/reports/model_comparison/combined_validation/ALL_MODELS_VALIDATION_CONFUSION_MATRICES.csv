@@ -1,0 +1,97 @@
+model,true_class,predicted_class,count
+Baseline CNN,glioma,glioma,218
+Baseline CNN,glioma,meningioma,11
+Baseline CNN,glioma,no_tumor,0
+Baseline CNN,glioma,pituitary,0
+Baseline CNN,meningioma,glioma,11
+Baseline CNN,meningioma,meningioma,240
+Baseline CNN,meningioma,no_tumor,5
+Baseline CNN,meningioma,pituitary,10
+Baseline CNN,no_tumor,glioma,0
+Baseline CNN,no_tumor,meningioma,0
+Baseline CNN,no_tumor,no_tumor,213
+Baseline CNN,no_tumor,pituitary,0
+Baseline CNN,pituitary,glioma,1
+Baseline CNN,pituitary,meningioma,0
+Baseline CNN,pituitary,no_tumor,0
+Baseline CNN,pituitary,pituitary,291
+ResNet50,glioma,glioma,194
+ResNet50,glioma,meningioma,32
+ResNet50,glioma,no_tumor,0
+ResNet50,glioma,pituitary,3
+ResNet50,meningioma,glioma,30
+ResNet50,meningioma,meningioma,209
+ResNet50,meningioma,no_tumor,9
+ResNet50,meningioma,pituitary,18
+ResNet50,no_tumor,glioma,2
+ResNet50,no_tumor,meningioma,7
+ResNet50,no_tumor,no_tumor,203
+ResNet50,no_tumor,pituitary,1
+ResNet50,pituitary,glioma,3
+ResNet50,pituitary,meningioma,3
+ResNet50,pituitary,no_tumor,3
+ResNet50,pituitary,pituitary,283
+DenseNet121,glioma,glioma,195
+DenseNet121,glioma,meningioma,1
+DenseNet121,glioma,no_tumor,17
+DenseNet121,glioma,pituitary,16
+DenseNet121,meningioma,glioma,59
+DenseNet121,meningioma,meningioma,70
+DenseNet121,meningioma,no_tumor,56
+DenseNet121,meningioma,pituitary,81
+DenseNet121,no_tumor,glioma,0
+DenseNet121,no_tumor,meningioma,0
+DenseNet121,no_tumor,no_tumor,212
+DenseNet121,no_tumor,pituitary,1
+DenseNet121,pituitary,glioma,2
+DenseNet121,pituitary,meningioma,1
+DenseNet121,pituitary,no_tumor,6
+DenseNet121,pituitary,pituitary,283
+MobileNetV2,glioma,glioma,225
+MobileNetV2,glioma,meningioma,2
+MobileNetV2,glioma,no_tumor,2
+MobileNetV2,glioma,pituitary,0
+MobileNetV2,meningioma,glioma,153
+MobileNetV2,meningioma,meningioma,85
+MobileNetV2,meningioma,no_tumor,14
+MobileNetV2,meningioma,pituitary,14
+MobileNetV2,no_tumor,glioma,5
+MobileNetV2,no_tumor,meningioma,1
+MobileNetV2,no_tumor,no_tumor,206
+MobileNetV2,no_tumor,pituitary,1
+MobileNetV2,pituitary,glioma,105
+MobileNetV2,pituitary,meningioma,6
+MobileNetV2,pituitary,no_tumor,0
+MobileNetV2,pituitary,pituitary,181
+EfficientNet-B0,glioma,glioma,0
+EfficientNet-B0,glioma,meningioma,0
+EfficientNet-B0,glioma,no_tumor,229
+EfficientNet-B0,glioma,pituitary,0
+EfficientNet-B0,meningioma,glioma,0
+EfficientNet-B0,meningioma,meningioma,0
+EfficientNet-B0,meningioma,no_tumor,266
+EfficientNet-B0,meningioma,pituitary,0
+EfficientNet-B0,no_tumor,glioma,0
+EfficientNet-B0,no_tumor,meningioma,0
+EfficientNet-B0,no_tumor,no_tumor,213
+EfficientNet-B0,no_tumor,pituitary,0
+EfficientNet-B0,pituitary,glioma,0
+EfficientNet-B0,pituitary,meningioma,0
+EfficientNet-B0,pituitary,no_tumor,292
+EfficientNet-B0,pituitary,pituitary,0
+EfficientNetV2-S,glioma,glioma,0
+EfficientNetV2-S,glioma,meningioma,0
+EfficientNetV2-S,glioma,no_tumor,229
+EfficientNetV2-S,glioma,pituitary,0
+EfficientNetV2-S,meningioma,glioma,0
+EfficientNetV2-S,meningioma,meningioma,0
+EfficientNetV2-S,meningioma,no_tumor,266
+EfficientNetV2-S,meningioma,pituitary,0
+EfficientNetV2-S,no_tumor,glioma,1
+EfficientNetV2-S,no_tumor,meningioma,0
+EfficientNetV2-S,no_tumor,no_tumor,212
+EfficientNetV2-S,no_tumor,pituitary,0
+EfficientNetV2-S,pituitary,glioma,1
+EfficientNetV2-S,pituitary,meningioma,0
+EfficientNetV2-S,pituitary,no_tumor,291
+EfficientNetV2-S,pituitary,pituitary,0

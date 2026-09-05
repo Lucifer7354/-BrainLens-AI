@@ -1,0 +1,6 @@
+Rank,model,class,AUC
+1,DenseNet121,macro_average,0.9984560308292141
+2,EfficientNet-B0,macro_average,0.9968665575030828
+3,EfficientNetV2-S,macro_average,0.9959520247236258
+4,MobileNetV2,macro_average,0.9948248299094371
+5,ResNet50,macro_average,0.9789975693564701

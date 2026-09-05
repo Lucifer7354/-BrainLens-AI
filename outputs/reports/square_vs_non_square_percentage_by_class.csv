@@ -1,0 +1,8 @@
+tumor_label,is_square,count,shape,percentage
+glioma,True,1401,Square,100.0
+meningioma,False,209,Non-square,12.78
+meningioma,True,1426,Square,87.22
+no_tumor,False,443,Non-square,36.7
+no_tumor,True,764,Square,63.3
+pituitary,False,7,Non-square,0.4
+pituitary,True,1750,Square,99.6
