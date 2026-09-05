@@ -1,4 +1,4 @@
-﻿"""
+"""
 BrainLens AI
 Brain MRI Classification & Explainable AI
 Research Prototype — Not for Clinical Diagnosis
@@ -85,7 +85,7 @@ MODEL_INFO_ROWS = [
 
 st.set_page_config(
     page_title="BrainLens AI",
-    page_icon="🧠",
+    page_icon="??",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -702,9 +702,9 @@ def build_report_text(filename, predicted_class, confidence, probabilities):
 with st.sidebar:
     st.markdown(
         """
-        <div class="bl-side-brand-title">🧠 BrainLens AI</div>
+        <div class="bl-side-brand-title">?? BrainLens AI</div>
         <div class="bl-side-brand-sub">Brain MRI Classification<br/>&amp; Explainable AI</div>
-        <div class="bl-side-nav-item"><span class="bl-side-status-dot">●</span> Research Prototype</div>
+        <div class="bl-side-nav-item"><span class="bl-side-status-dot">?</span> Research Prototype</div>
         """,
         unsafe_allow_html=True,
     )
@@ -713,9 +713,9 @@ with st.sidebar:
     st.markdown('<div class="bl-side-heading">Workspace</div>', unsafe_allow_html=True)
     st.markdown(
         """
-        <div class="bl-side-nav-item bl-side-nav-active">◉ Analyze MRI</div>
-        <div class="bl-side-nav-item">○ Explainability</div>
-        <div class="bl-side-nav-item">○ Model Overview</div>
+        <div class="bl-side-nav-item bl-side-nav-active">? Analyze MRI</div>
+        <div class="bl-side-nav-item">? Explainability</div>
+        <div class="bl-side-nav-item">? Model Overview</div>
         """,
         unsafe_allow_html=True,
     )
@@ -756,9 +756,9 @@ with st.sidebar:
     model_status = "Model loaded" if model is not None else "Model not found"
     st.markdown(
         f"""
-        <div class="bl-side-system-row"><span class="bl-side-status-dot">●</span> {model_status}</div>
-        <div class="bl-side-system-row"><span class="bl-side-status-dot">●</span> {"GPU available" if gpu_available else "CPU mode"}</div>
-        <div class="bl-side-system-row"><span class="bl-side-status-dot">●</span> Research mode</div>
+        <div class="bl-side-system-row"><span class="bl-side-status-dot">?</span> {model_status}</div>
+        <div class="bl-side-system-row"><span class="bl-side-status-dot">?</span> {"GPU available" if gpu_available else "CPU mode"}</div>
+        <div class="bl-side-system-row"><span class="bl-side-status-dot">?</span> Research mode</div>
         """,
         unsafe_allow_html=True,
     )
@@ -781,7 +781,7 @@ st.markdown(
     """
     <div class="bl-hero">
         <div class="bl-eyebrow">Explainable Deep Learning for Brain MRI</div>
-        <div class="bl-hero-title">🧠 BrainLens AI</div>
+        <div class="bl-hero-title">?? BrainLens AI</div>
         <div class="bl-hero-sub">
             Analyze a single brain MRI using a fine-tuned DenseNet121 model and
             visualize the regions influencing its prediction.
@@ -818,7 +818,7 @@ for i, step_name in enumerate(steps):
         f"</div>"
     )
     if i < len(steps) - 1:
-        step_html += '<div class="bl-step-arrow">→</div>'
+        step_html += '<div class="bl-step-arrow">?</div>'
 step_html += "</div>"
 st.markdown(step_html, unsafe_allow_html=True)
 
@@ -866,7 +866,7 @@ if st.session_state.uploaded_file_bytes is None:
         """
         <div class="bl-card">
             <div class="bl-empty">
-                <div class="bl-empty-icon">🧠</div>
+                <div class="bl-empty-icon">??</div>
                 <div class="bl-empty-title">Ready to analyze</div>
                 <div>Upload a brain MRI scan to begin the BrainLens AI analysis workflow.</div>
             </div>
@@ -900,14 +900,14 @@ else:
 
         if analyze_clicked:
             status_box = st.status("Running BrainLens AI analysis…", expanded=True)
-            status_box.write("✓ Image loaded")
+            status_box.write("? Image loaded")
 
             padded_image, input_array = preprocess_image(pil_image, INPUT_SIZE)
-            status_box.write("✓ Preprocessing complete")
+            status_box.write("? Preprocessing complete")
 
-            status_box.write("✓ DenseNet121 inference")
+            status_box.write("? DenseNet121 inference")
             class_idx, probs = run_inference(input_array)
-            status_box.write("✓ Prediction generated")
+            status_box.write("? Prediction generated")
 
             heatmap = generate_gradcam(input_array, class_idx)
             gradcam_overlay_img = None
@@ -915,7 +915,7 @@ else:
             if heatmap is not None:
                 gradcam_colored_img = colorize_heatmap(heatmap, INPUT_SIZE)
                 gradcam_overlay_img = overlay_heatmap(padded_image, gradcam_colored_img)
-            status_box.write("✓ Explainability generated")
+            status_box.write("? Explainability generated")
             status_box.update(label="Analysis complete", state="complete", expanded=False)
 
             st.session_state.display_image = padded_image
@@ -925,7 +925,7 @@ else:
             st.session_state.gradcam_heatmap = gradcam_colored_img
             st.session_state.gradcam_overlay = gradcam_overlay_img
             st.session_state.analysis_done = True
-            st.rerun()
+            st.experimental_rerun()
 
 # ============================================================
 # PREDICTION RESULT
@@ -1097,3 +1097,4 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
