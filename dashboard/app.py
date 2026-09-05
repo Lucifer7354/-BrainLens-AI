@@ -1,7 +1,7 @@
 ﻿"""
 BrainLens AI
 Brain MRI Classification & Explainable AI
-Research Prototype â€” Not for Clinical Diagnosis
+Research Prototype — Not for Clinical Diagnosis
 
 Single-file Streamlit application.
 """
@@ -70,7 +70,7 @@ CONFUSION_MATRIX = pd.DataFrame(
 MODEL_INFO_ROWS = [
     ("Model", "DenseNet121"),
     ("Dataset", "BRISC2025"),
-    ("Input", "224 Ã— 224 Ã— 3 RGB"),
+    ("Input", "224 × 224 × 3 RGB"),
     ("Classes", "4"),
     ("Parameters", "7,305,028"),
     ("Transfer learning", "ImageNet"),
@@ -686,7 +686,7 @@ def build_report_text(filename, predicted_class, confidence, probabilities):
     lines.append(f"Grad-CAM target layer: {GRAD_CAM_LAYER_NAME}")
     lines.append("")
     lines.append("-" * 50)
-    lines.append("Research Prototype â€” Not for Clinical Diagnosis")
+    lines.append("Research Prototype — Not for Clinical Diagnosis")
     lines.append(
         "BrainLens AI is developed for research and educational purposes. "
         "Model predictions and Grad-CAM visualizations should not be used "
@@ -704,7 +704,7 @@ with st.sidebar:
         """
         <div class="bl-side-brand-title">🧠 BrainLens AI</div>
         <div class="bl-side-brand-sub">Brain MRI Classification<br/>&amp; Explainable AI</div>
-        <div class="bl-side-nav-item"><span class="bl-side-status-dot">•</span> Research Prototype</div>
+        <div class="bl-side-nav-item"><span class="bl-side-status-dot">●</span> Research Prototype</div>
         """,
         unsafe_allow_html=True,
     )
@@ -714,8 +714,8 @@ with st.sidebar:
     st.markdown(
         """
         <div class="bl-side-nav-item bl-side-nav-active">◉ Analyze MRI</div>
-        <div class="bl-side-nav-item">◉ Explainability</div>
-        <div class="bl-side-nav-item">◉ Model Overview</div>
+        <div class="bl-side-nav-item">○ Explainability</div>
+        <div class="bl-side-nav-item">○ Model Overview</div>
         """,
         unsafe_allow_html=True,
     )
@@ -726,7 +726,7 @@ with st.sidebar:
         """
         <div class="bl-side-nav-item">DenseNet121</div>
         <div class="bl-side-nav-item">BRISC2025</div>
-        <div class="bl-side-nav-item">224 Ã— 224 Ã— 3</div>
+        <div class="bl-side-nav-item">224 × 224 × 3</div>
         """,
         unsafe_allow_html=True,
     )
@@ -756,9 +756,9 @@ with st.sidebar:
     model_status = "Model loaded" if model is not None else "Model not found"
     st.markdown(
         f"""
-        <div class="bl-side-system-row"><span class="bl-side-status-dot">•</span> {model_status}</div>
-        <div class="bl-side-system-row"><span class="bl-side-status-dot">•</span> {"GPU available" if gpu_available else "CPU mode"}</div>
-        <div class="bl-side-system-row"><span class="bl-side-status-dot">•</span> Research mode</div>
+        <div class="bl-side-system-row"><span class="bl-side-status-dot">●</span> {model_status}</div>
+        <div class="bl-side-system-row"><span class="bl-side-status-dot">●</span> {"GPU available" if gpu_available else "CPU mode"}</div>
+        <div class="bl-side-system-row"><span class="bl-side-status-dot">●</span> Research mode</div>
         """,
         unsafe_allow_html=True,
     )
@@ -786,7 +786,7 @@ st.markdown(
             Analyze a single brain MRI using a fine-tuned DenseNet121 model and
             visualize the regions influencing its prediction.
         </div>
-        <span class="bl-pill">Research Prototype â€¢ BRISC2025</span>
+        <span class="bl-pill">Research Prototype • BRISC2025</span>
     </div>
     """,
     unsafe_allow_html=True,
@@ -818,7 +818,7 @@ for i, step_name in enumerate(steps):
         f"</div>"
     )
     if i < len(steps) - 1:
-        step_html += '<div class="bl-step-arrow">•</div>'
+        step_html += '<div class="bl-step-arrow">→</div>'
 step_html += "</div>"
 st.markdown(step_html, unsafe_allow_html=True)
 
@@ -837,7 +837,7 @@ st.markdown('<div class="bl-section-label">Step 01</div>', unsafe_allow_html=Tru
 st.markdown('<div class="bl-section-title">Upload your brain MRI</div>', unsafe_allow_html=True)
 st.caption(
     "Upload a JPG, JPEG or PNG brain MRI image. The image will be standardized "
-    "to 224 Ã— 224 Ã— 3 before model inference. Allowed formats: JPG, JPEG, PNG. "
+    "to 224 × 224 × 3 before model inference. Allowed formats: JPG, JPEG, PNG. "
     "Maximum upload size: 10 MB."
 )
 
@@ -877,7 +877,7 @@ if st.session_state.uploaded_file_bytes is None:
 else:
     pil_image = Image.open(io.BytesIO(st.session_state.uploaded_file_bytes))
     original_format = pil_image.format or "Unknown"
-    original_dims = f"{pil_image.size[0]} Ã— {pil_image.size[1]}"
+    original_dims = f"{pil_image.size[0]} × {pil_image.size[1]}"
 
     st.markdown('<div class="bl-section-label">Step 02</div>', unsafe_allow_html=True)
     st.markdown('<div class="bl-section-title">Preview &amp; Analyze</div>', unsafe_allow_html=True)
@@ -899,7 +899,7 @@ else:
         analyze_clicked = st.button("Analyze MRI", type="primary", use_container_width=True)
 
         if analyze_clicked:
-            status_box = st.status("Running BrainLens AI analysisâ€¦", expanded=True)
+            status_box = st.status("Running BrainLens AI analysis…", expanded=True)
             status_box.write("✓ Image loaded")
 
             padded_image, input_array = preprocess_image(pil_image, INPUT_SIZE)
@@ -925,7 +925,7 @@ else:
             st.session_state.gradcam_heatmap = gradcam_colored_img
             st.session_state.gradcam_overlay = gradcam_overlay_img
             st.session_state.analysis_done = True
-            st.experimental_rerun()
+            st.rerun()
 
 # ============================================================
 # PREDICTION RESULT
@@ -985,7 +985,7 @@ if st.session_state.analysis_done and st.session_state.predicted_class is not No
 
     if st.session_state.gradcam_heatmap is None:
         st.info(
-            "Grad-CAM could not be generated for this model â€” the expected "
+            "Grad-CAM could not be generated for this model — the expected "
             f"backbone or target layer (`{GRAD_CAM_LAYER_NAME}`) was not found."
         )
     else:
@@ -1073,7 +1073,7 @@ with st.expander("Research Performance", expanded=False):
 st.markdown(
     """
     <div class="bl-disclaimer">
-        <div class="bl-disclaimer-title">Research Prototype â€” Not for Clinical Diagnosis</div>
+        <div class="bl-disclaimer-title">Research Prototype — Not for Clinical Diagnosis</div>
         <div class="bl-disclaimer-text">
             BrainLens AI is developed for research and educational purposes.
             Model predictions and Grad-CAM visualizations should not be used
@@ -1091,12 +1091,9 @@ st.markdown(
 st.markdown(
     """
     <div class="bl-footer">
-        BrainLens AI Â· DenseNet121 Â· BRISC2025 Â· Explainable Deep Learning<br/>
+        BrainLens AI · DenseNet121 · BRISC2025 · Explainable Deep Learning<br/>
         Research Prototype
     </div>
     """,
     unsafe_allow_html=True,
 )
-
-
-
